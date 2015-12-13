@@ -1,0 +1,30 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+body{
+	background-color: #eee;
+}
+h1, h2, h3, h4, h5, h6, p{
+	font-family: "neuzeit-grotesk", Helvetica, Arial, sans-serif;
+	line-height: 1.5;	
+}
+
+
+h1{
+	font-family:"neuzeit-grotesk-condensed";
+	font-size: 85px;
+	weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.col-md-12{
+	min-height: 99vh;
+	padding-bottom: 15px;
+}
+
+#lead{
+	background-color:#00D455;
+}

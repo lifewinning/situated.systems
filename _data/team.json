@@ -1,11 +1,25 @@
 [
 	{
 		"name":"Sherri Wasserman",
-		"bio":"",
-		"photo":""
+		"bio":"Sherri Wasserman makes things for print, digital, and physical space. She serves as Director of Experience Design for Unified Field and is an artist/designer-in-residence at metaLAB at Harvard University.",
+		"photo":"s.jpg"
 	},
-	{},
-	{},
-	{}
+	{
+		"name": "Georgina Voss",
+		"bio": "Georgina Voss is an anthropologist of technology and innovation systems, working at the intersection of design, futures, and policy. She is a co-founder of design and research co-operative Strange Telemetry, and teaches at Goldsmiths, University of London.
+",
+		"photo": "george.jpg"
+		},
+	{
+		"name": "Debbie Chachra",
+		"bio": "Debbie Chachra is an Associate Professor of Materials Science at the Olin College of Engineering. Her research interests include engineering education, biological materials, design, and the interrelationship between technology and culture.
+",
+		"photo": "deb.jpg"
+		},
+	{
+		"name": "Ingrid Burrington",
+		"bio": "Ingrid Burrington makes maps, tells jokes, and writes about places, politics, and the weird feelings people have about both. She is currently artist-in-residence at Data and Society Research Institute. ",
+		"photo": "ingrid.jpg"
+	}
 
 ]

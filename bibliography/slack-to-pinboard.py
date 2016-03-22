@@ -10,6 +10,7 @@ def slackin():
         data = request.form
         url = []
         tagses = []
+        desc = []
         #parse slack message text with lazy queries
         
         list_text = data['text'].encode('utf-8').split(' ')
@@ -21,13 +22,15 @@ def slackin():
                 if l.startswith('#'):
                         l = l.replace('#','').encode('utf-8')
                         tagses.append(l)
+                else:
+                    desc.append()
         soup = BeautifulSoup(urllib2.urlopen(url[0]))
         if soup.title.name is None:
                 title = url[0]
         else:
                 title = soup.title.string
         tagses.append(data['user_name'].encode('utf-8'))
-        pin_key = "YOUR PIN KEY HERE KIND STRANGER READING MY CODE"
+        pin_key = "YOUR PINBOARD KEY HERE KIND STRANGER READING MY CODE"
 
         pb = pinboard.Pinboard(pin_key)
         addpost = pb.posts.add(url = url[0], description = title, tags = tagses, extended = data['text'].encode('utf-8'))

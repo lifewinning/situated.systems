@@ -1,0 +1,556 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.0112252,37.3825044]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "901 Thompson Pl, Sunnyvale CA",
+			"company": "AMD",
+			"api_address": "901 Thompson Place",
+			"confidence": 0.882
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.010745, 37.38215]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "811 E. Arques Ave, Sunnyvale CA",
+			"company": "Signetics Corp",
+			"api_address": "811 East Arques Avenue",
+			"confidence": 0.919
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.0096977,37.3864805]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "915 Deguigne Drive, Sunnyvale CA",
+			"company": "AMD",
+			"api_address": "9153 Deguilly",
+			"confidence": 0.676
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.997465, 37.381146]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1165 E. Arques Ave, Sunnyvale CA",
+			"company": "MMI",
+			"api_address": "1165 Arques Avenue",
+			"confidence": 0.74
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.001707, 37.375568]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2900 Semicondctor Drive, Santa Clara CA",
+			"company": "National Semiconductor",
+			"api_address": "2900 Semiconductor Drive",
+			"confidence": 0.913
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.772902, 37.232393]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "101 Bernal Road, San Jose CA",
+			"company": "Fairchild",
+			"api_address": "101 Bernal Road",
+			"confidence": 0.977
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.802425, 37.250533]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "5600 Cottle Road, San Jose CA",
+			"company": "IBM",
+			"api_address": "5600 Cottle Road",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.001497, 37.379682]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1050 E. Arques Ave, Sunnyvale CA",
+			"company": "UTC",
+			"api_address": "1050 East Arques Avenue",
+			"confidence": 0.919
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.016169, 37.375326]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "740 Kifer Road, Sunnyvale CA",
+			"company": "Signetics Corp",
+			"api_address": "740 Kifer Road",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.990365, 37.371696]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "860 Kifer Road, Sunnyvale CA",
+			"company": "Signetics Corp",
+			"api_address": "1290 Kifer Road",
+			"confidence": 0.54
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.953043, 37.361436]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1200 Memorex Drive, Santa Clara CA",
+			"company": "Memorex Corp",
+			"api_address": "1200 Memorex Drive",
+			"confidence": 0.976
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.972794, 37.373553]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2880 Northwestern Parkway, Santa Clara CA",
+			"company": "Intel-Magnetics",
+			"api_address": "2880 Northwestern Parkway",
+			"confidence": 0.974
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.987874, 37.379098]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3000 Oakmead Parkway, Santa Clara CA",
+			"company": "Intel-SC3",
+			"api_address": "300 Oakmead Parkway",
+			"confidence": 0.897
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.985565, 37.41018]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "5440 Patrick Henry Drive, Santa Clara CA",
+			"company": "Dysan",
+			"api_address": "5440 Patrick Henry Drive",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.985359, 37.406397]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "5200 Patrick Henry Drive, Santa Clara CA",
+			"company": "Dysan",
+			"api_address": "5200 Patrick Henry Drive",
+			"confidence": 0.976
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.8573233,37.3062334]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2240 S.7th Street, San Jose CA",
+			"company": "SCCT",
+			"api_address": "",
+			"confidence": 0.9
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.963682, 37.389645]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2175 mission College Blvd, Santa Clara CA",
+			"company": "MMI",
+			"api_address": "2175 Mission College Boulevard",
+			"confidence": 0.919
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.958038, 37.378599]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3105 Alfred Street, Sunnyvale CA",
+			"company": "Fairchild",
+			"api_address": "3105 Alfred Street",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.0271962,37.3774988]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "401 E. Hendy Ave, Sunnyvale CA",
+			"company": "Westinghouse",
+			"api_address": "",
+			"confidence": 0.896
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.028613, 37.400787]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "940 Hamlin Court, Sunnyvale CA",
+			"company": "Circo",
+			"api_address": "940 Hamlin Court",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.0373536,37.3749755]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "305 Mathilda Ave, Sunnyvale CA",
+			"company": "Signetics Corp",
+			"api_address": "30 Mathilda Avenue",
+			"confidence": 0.89
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.982645, 37.385212]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3625 Peterson Way, Santa Clara CA",
+			"company": "Signetics Corp",
+			"api_address": "3625 Peterson Way",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.9875103,37.3843877]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3600 Tannery Way, Santa Clara CA",
+			"company": "Signetics Corp",
+			"api_address": "",
+			"confidence": 0.889
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.94814, 37.361826]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2170 Lafayette Street, Santa Clara CA",
+			"company": "Monsanto",
+			"api_address": "2175 Lafayette Street",
+			"confidence": 0.907
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.038999, 37.375164]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "360 N. Pastoria Ave, Sunnyvale CA",
+			"company": "Verbatim Corp",
+			"api_address": "360 Pastoria Avenue",
+			"confidence": 0.906
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.915679, 37.387622]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2256 Junction Ave, San Jose CA",
+			"company": "Van Waters & Rogers",
+			"api_address": "2256 Junction Avenue",
+			"confidence": 0.919
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.955908, 37.375835]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1500 Space Park Drive, Santa Clara CA",
+			"company": "Precision Mono",
+			"api_address": "1500 Space Park Drive",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.0342117,37.387904]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "433 N. Mathilda Avenue, Sunnyvale CA",
+			"company": "Data General",
+			"api_address": "433 N Mathilda Avenue",
+			"confidence": 0.902
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.973085, 37.377142]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3050 Coronado Blvd, Santa Clara CA",
+			"company": "Synertek",
+			"api_address": "3050 Coronado Drive",
+			"confidence": 0.898
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.969671, 37.377146]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3001 Stender Way, Santa Clara CA",
+			"company": "Synertek",
+			"api_address": "3001 Stender Way",
+			"confidence": 0.976
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.952527, 37.369411]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1000 Walsh Avenue, Santa Clara CA",
+			"company": "Technical Coatings",
+			"api_address": "1000 Walsh Avenue",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.000853, 37.336494]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3800 Homestead Road, Santa Clara CA",
+			"company": "AMI",
+			"api_address": "3800 Homestead Road",
+			"confidence": 0.975
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.989977, 37.407956]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1276 Hammerwood Ave, Sunnyvale CA",
+			"company": "Intersil",
+			"api_address": "1276 Hammerwood Avenue",
+			"confidence": 0.919
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.034695, 37.385617]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "305 Soquel Way, Sunnyvale CA",
+			"company": "Xidex",
+			"api_address": "305 Soquel Way",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.031824, 37.38883]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "477 N. Mathilda Avenue, Sunnyvale CA",
+			"company": "Zymos",
+			"api_address": "477 Mathilda Avenue",
+			"confidence": 0.89
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.009156, 37.384591]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "825 Stewart Drive, Sunnyvale CA",
+			"company": "TRW",
+			"api_address": "825 Stewart Drive",
+			"confidence": 0.957
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.0362919,37.3951707]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "750 Palomar Avenue, Sunnyvale CA",
+			"company": "Exar-Integrated",
+			"api_address": "750 Palomar Avenue",
+			"confidence": 0.95
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.781644, 37.230767]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "6850 Santa Teresa Blvd, San Jose CA",
+			"company": "Magnex Corp",
+			"api_address": "6850 Santa Teresa Boulevard",
+			"confidence": 0.917
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.970805, 37.375859]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2905 Stender Way, Santa Clara CA",
+			"company": "Spectre Physics",
+			"api_address": "2900 Stender Way",
+			"confidence": 0.882
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.884639, 37.36512]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1021 Berryessa Road, Sunnyvale CA",
+			"company": "Solvent Service",
+			"api_address": "1021 Berryessa Road",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.996187, 37.405924]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1262 N. Lawrence Station Road, Sunnyvale CA",
+			"company": "Precision Media",
+			"api_address": "1265 Lawrence Station Road",
+			"confidence": 0.89
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.0039584,37.3715054]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1120 Sonora Ave, Sunnyvale CA",
+			"company": "KTI Chemicals",
+			"api_address": "1120 Sonora Avenue",
+			"confidence": 0.902
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.952276, 37.36748]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1015 Martin Ave, Santa Clara CA",
+			"company": "Pacific Nursery",
+			"api_address": "1015 Martin Avenue",
+			"confidence": 0.917
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.033547, 37.394159]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "639 N. Pastorida Avenue, Sunnyvale CA",
+			"company": "Advanced LSI",
+			"api_address": "639-657 North Pastoria Avenue",
+			"confidence": 0.897
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.8675211,37.3195775]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1515 S. 10th Street, San Jose CA",
+			"company": "Lorentz Barrel & Drum",
+			"api_address": "1515 S. 10th Street",
+			"confidence": 0.878
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.978512, 37.377631]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3050 Bowers Ave, Santa Clara CA",
+			"company": "Applied Materials",
+			"api_address": "3050 Bowers Avenue",
+			"confidence": 0.919
+		}
+	}]
+}

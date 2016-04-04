@@ -1,0 +1,184 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.032666, 37.399485]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "645 Almanor Avenue, Sunnyvale CA",
+			"company": "Applied Technology",
+			"api_address": "645 Almanor Avenue",
+			"confidence": 0.962
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.853163, 37.311662]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2049 Senter Road, San Jose CA",
+			"company": "Burke Industries",
+			"api_address": "2049 Senter Road",
+			"confidence": 0.975
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.9341227,37.3917704]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2830 N. 1st Street, San Jose CA",
+			"company": "IMP Corp",
+			"api_address": "2830 North 1st Street",
+			"confidence": 0.889
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.978955, 37.378985]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3300 Scott Blvd, Santa Clara CA",
+			"company": "Sperry Univac",
+			"api_address": "3300 Scott Boulevard",
+			"confidence": 0.918
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.911521, 37.393973]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2165 O'Toole Ave, San Jose CA",
+			"company": "Shell Oil",
+			"api_address": "2165 O'Toole Avenue",
+			"confidence": 0.917
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.867563, 37.362511]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "640 Lenfest Road, San Jose CA",
+			"company": "Economics Lab",
+			"api_address": "640 Lenfest Road",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.990577, 37.379731]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1250 E. Arques Avenue, Sunnyvale CA",
+			"company": "Amdahl",
+			"api_address": "1250 East Arques Avenue",
+			"confidence": 0.919
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.0129873,37.4032593]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1161 N. Fair Oaks Avenue, Sunnyvale CA",
+			"company": "Bell INdustries",
+			"api_address": "1100 Fair Oaks Avenue",
+			"confidence": 0.884
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.047578, 37.383539]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1058 W. Evelyn Avenue, Sunnyvale CA",
+			"company": "Memotronics",
+			"api_address": "1058 Evelyn Avenue",
+			"confidence": 0.74
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.9192116,37.3439646]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "909 Stockton Avenue, San Jose CA",
+			"company": "Safe-Way Chemical",
+			"api_address": "909 East Stockton Avenue",
+			"confidence": 0.894
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.941915, 37.366147]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2500 De La Cruz Blvd,  Santa Clara CA",
+			"company": "Container Corp",
+			"api_address": "2480-2488 De La Cruz Boulevard",
+			"confidence": 0.838
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.8531027,37.307555]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "520 Parrot Street, San Jose CA",
+			"company": "U.S. Cellulose",
+			"api_address": "520 Parrot Street",
+			"confidence": 0.963
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.98392, 37.409011]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "5301 Patrick Henry Drive, Santa Clara CA",
+			"company": "Dysan",
+			"api_address": "5301 Patrick Henry Drive",
+			"confidence": 0.976
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.9371623,37.3810503]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "350 W. Trimble Road, San Jose CA",
+			"company": "Hewlett Packard",
+			"api_address": "",
+			"confidence": 0.905
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.869922, 37.3581]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "530 Marburg Way, San Jose CA",
+			"company": "DAP Inc.",
+			"api_address": "530 Marburg Way",
+			"confidence": 0.971
+		}
+	}]
+}

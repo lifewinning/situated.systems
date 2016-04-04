@@ -1,0 +1,1640 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0086,
+                    37.3825,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "ADVANCED MICRO DEVICES, INC.",
+                "description": "901 THOMPSON PL, SUNNYVALE, CA, 94086<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD048634059)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0066,
+                    37.3868,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "ADVANCED MICRO DEVICES, INC. (BUILDING 915)",
+                "description": "915 DEGUIGNE, SUNNYVALE, CA, 94086<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAT080034234)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.19999999999999,
+                    38.6083,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "AEROJET GENERAL CORP.",
+                "description": "HWY US 50 & AEROJET RD, RANCHO CORDOVA, CA, 95670<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980358832)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33,
+                    37.7888,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "ALAMEDA NAVAL AIR STATION",
+                "description": "W END CITY OF ALAMEDA, ALAMEDA, CA, 94501<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA2170023236)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.36709999999998,
+                    33.9918,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "ALARK HARD CHROME",
+                "description": "2777 MAIN STREET, RIVERSIDE, CA, 92501<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD098229214)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2937,
+                    37.8025,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "AMCO CHEMICAL",
+                "description": "1414 THIRD STREET, OAKLAND, CA, 94607<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA0001576081)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.97770000000001,
+                    37.3777,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "APPLIED MATERIALS",
+                "description": "3050 BOWERS AVE, SANTA CLARA, CA, 95051<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD042728840)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.58669999999998,
+                    36.3216,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "ATLAS ASBESTOS MINE",
+                "description": "LOS GATOS CREEK RD NW OF FRESNO, COALINGA, CA, 93210<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980496863)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.9389,
+                    34.8783,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "BARSTOW MARINE CORPS LOGISTICS BASE",
+                "description": "MARINE CORPS LOGIS BASE- NEBO, BARSTOW, CA, 92311<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA8170024261)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.02009999999999,
+                    36.049,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "BECKMAN INSTRUMENTS (PORTERVILLE PLANT)",
+                "description": "167 W POPLAR AVE, PORTERVILLE, CA, 93257<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD048645444)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.822,
+                    35.203,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "BROWN & BRYANT, INC. (ARVIN PLANT)",
+                "description": "600 S DERBY RD, ARVIN, CA, 93203<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD052384021)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.34080000000002,
+                    33.3066,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "CAMP PENDLETON MARINE CORPS BASE",
+                "description": "CAMP PENDLETON MARINE BASE, CAMP PENDLETON, CA, 92055<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA2170023533)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.5892,
+                    39.2319,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "CARSON RIVER MERCURY SITE",
+                "description": "DEER RUN RD TO DAYTON IN RIV, DAYTON, NV, 89401<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=NVD980813646)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.5443,
+                    34.8631,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "CASMALIA RESOURCES",
+                "description": "NTU RD-539 SAN YSIDRO RD, CASMALIA, CA, 93429<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD020748125)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.5636,
+                    37.3673,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "CASTLE AIR FORCE BASE (6 AREAS)",
+                "description": "CASTLE AFB, MERCED, CA, 95342<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA3570024551)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.69110000000002,
+                    41.102700000000006,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "CELTOR CHEMICAL WORKS",
+                "description": "BETW NORTON FLD & TRINITY RIV, HOOPA, CA, 95546<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980638860)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.5283,
+                    36.31000000000001,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "COALINGA ASBESTOS MINE",
+                "description": "PINE CYN 15 MI NW OF, COALINGA, CA, 93210<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980817217)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.193,
+                    39.1125,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "COAST WOOD PRESERVING",
+                "description": "PLANT RD & TAYLOR DR, UKIAH, CA, 95482<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD063015887)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122,
+                    38.0494,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "CONCORD NAVAL WEAPONS STATION",
+                "description": "PORT CHICAGO HWY, CONCORD, CA, 94520<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA7170024528)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.1796,
+                    33.9469,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "COOPER DRUM CO.",
+                "description": "9316 ATLANTIC AVE, SOUTH GATE, CA, 90280<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD055753370)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.6186,
+                    36.802600000000005,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "CRAZY HORSE SANITARY LANDFILL",
+                "description": "350 CRAZY HORSE CANYON ROAD, SALINAS, CA, 93907<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980498455)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.08719999999998,
+                    37.4165,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "CTS PRINTEX, INC.",
+                "description": "PLYMOUTH & COLONY STS, MOUNTAIN VIEW, CA, 94043<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD009212838)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.28940000000001,
+                    33.8466,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "DEL AMO",
+                "description": "DEL AMO BLVD AND VERMONT AVE, LOS ANGELES, CA, 90006<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD029544731)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -124.23170000000002,
+                    41.7733,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "DEL NORTE PESTICIDE STORAGE",
+                "description": "2650 WASHINGTON BLVD, CRESCENT CITY, CA, 95531<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD000626176)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.88569999999999,
+                    34.9494,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "EDWARDS AIR FORCE BASE",
+                "description": "AFFTC EDWARDS AFB, EDWARDS AFB, CA, 93524<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA1570024504)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.7176,
+                    33.6766,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "EL TORO MARINE CORPS AIR STATION",
+                "description": "EL TORO MARINE CORPS AIR STA, EL TORO, CA, 92709<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA6170023208)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.05420000000001,
+                    37.4012,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "FAIRCHILD SEMICONDUCTOR CORP. (MOUNTAIN VIEW PLANT)",
+                "description": "464 ELLIS ST, MOUNTAIN VIEW, CA, 94042<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD095989778)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.7748,
+                    37.2326,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "FAIRCHILD SEMICONDUCTOR CORP. (SOUTH SAN JOSE PLANT)",
+                "description": "101 BERNAL ROAD, SAN JOSE, CA, 95119<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD097012298)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.5901,
+                    36.6249,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "FIRESTONE TIRE & RUBBER CO. (SALINAS PLANT)",
+                "description": "340 EL CAMINO REAL S, SALINAS, CA, 93901<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD990793887)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.75000000000001,
+                    36.625,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "FORT ORD",
+                "description": "FORMER ARMY BASE FORT ORD, MARINA, CA, 93933<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA7210020676)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.5416,
+                    42.3361,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "FREMONT NATIONAL FOREST/WHITE KING AND LUCKY LASS URANIUM MINES (USDA)",
+                "description": "524 N G STREET, LAKEVIEW, OR, 97630<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=OR7122307658)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.8261,
+                    36.7041,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "FRESNO MUNICIPAL SANITARY LANDFILL",
+                "description": "SW COR OF JENSEN & W AVE, FRESNO, CA, 93706<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980636914)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.67330000000001,
+                    38.553,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "FRONTIER FERTILIZER",
+                "description": "COUNTY ROAD 32A, DAVIS, CA, 95618<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD071530380)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.8457,
+                    37.9882,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "GBF, INC., DUMP",
+                "description": "ALONG JAMES DONLON BLVD, ANTIOCH, CA, 94509<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980498562)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.38329999999999,
+                    34.595,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "GEORGE AIR FORCE BASE",
+                "description": "AIR BASE RD- NR ST RTE 395, VICTORVILLE, CA, 92392<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA2570024453)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.18400000000001,
+                    34.1405,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "HALACO ENGINEERING COMPANY",
+                "description": "6200 PERKINS, OXNARD, CA, 93033<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD009688052)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.1434,
+                    37.421400000000006,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "HEWLETT-PACKARD (620-640 PAGE MILL ROAD)",
+                "description": "620 - 640 PAGE MILL RD., PALO ALTO, CA, 94304<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980884209)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.8094,
+                    36.84250000000001,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "INDUSTRIAL WASTE PROCESSING",
+                "description": "7140 N HARRISON, FRESNO, CA, 93650<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980736284)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0566,
+                    37.3962,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "INTEL CORP. (MOUNTAIN VIEW PLANT)",
+                "description": "365 E MIDDLEFIELD RD, MOUNTAIN VIEW, CA, 94040<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD061620217)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.9717,
+                    37.3737,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "INTEL CORP. (SANTA CLARA III)",
+                "description": "2880 NORTHWESTERN PKWY, SANTA CLARA, CA, 95051<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAT000612184)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.98009999999998,
+                    37.3756,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "INTEL MAGNETICS",
+                "description": "3000 OAKMEAD VILLAGE DR, SANTA CLARA, CA, 95051<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD092212497)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0015,
+                    37.3361,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "INTERSIL INC./SIEMENS COMPONENTS",
+                "description": "10900 N TANTAU AVE/19000 HOMESTEAD RD, CUPERTINO, CA, 95014<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD041472341)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.52779999999998,
+                    40.6716,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "IRON MOUNTAIN MINE",
+                "description": "OFF HWY 299 9 MI NW OF, REDDING, CA, 96001<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980498612)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.37069999999999,
+                    41.4364,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "J.H. BAXTER & CO.",
+                "description": "422 MILL ST, WEED, CA, 96094<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD000625731)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0882,
+                    37.3988,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "JASCO CHEMICAL CORP.",
+                "description": "1710 VILLA ST, MOUNTAIN VIEW, CA, 94041<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD009103318)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.1674,
+                    34.2011,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "JET PROPULSION LABORATORY (NASA)",
+                "description": "4800 OAK GROVE DR, PASADENA, CA, 91109<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA9800013030)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.5033,
+                    38.5916,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "JIBBOOM JUNKYARD",
+                "description": "240 - 260 JIBBOOM ST, SACRAMENTO, CA, 95814<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980737613)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.8967,
+                    35.6259,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "KLAU/BUENA VISTA MINE",
+                "description": "T 26S, R 10E, SEC 33, S1/2 MT DIABLO MER, PASO ROBLES, CA, 93446<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA1141190578)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.5643,
+                    39.4708,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "KOPPERS CO., INC. (OROVILLE PLANT)",
+                "description": "BAGGETT-MARYSVILLE RD, OROVILLE, CA, 95965<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD009112087)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.7512,
+                    38.5187,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "LABORATORY FOR ENERGY-RELATED HEALTH RESEARCH/OLD CAMPUS LANDFILL (USDOE)",
+                "description": "OLD DAVIS RD, DAVIS, CA, 95616<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA2890190000)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.9698,
+                    39.228,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "LAVA CAP MINE",
+                "description": "14501 LAVA CAP MINE ROAD, NEVADA CITY, CA, 95959<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD983618893)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.57660000000001,
+                    37.64430000000001,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "LAWRENCE LIVERMORE NATL LAB (SITE 300) (USDOE)",
+                "description": "CORRAL HOLLOW ROAD, TRACY, CA, 95376<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA2890090002)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.7047,
+                    37.688,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "LAWRENCE LIVERMORE NATL LAB, MAIN SITE (USDOE)",
+                "description": "7000 EAST AVE, LIVERMORE, CA, 94550<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA2890012584)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.65609999999998,
+                    38.7038,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "LEVIATHAN MINE",
+                "description": "LEVIATHAN MINE, MARKLEEVILLE, CA, 96120<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980673685)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.325,
+                    37.9083,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "LIQUID GOLD OIL CORP.",
+                "description": "HOFFMAN BLVD & S 47TH ST, RICHMOND, CA, 94804<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAT000646208)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.86439999999999,
+                    37.3186,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "LORENTZ BARREL & DRUM CO.",
+                "description": "1515 S 10TH ST, SAN JOSE, CA, 95112<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD029295706)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.57030000000002,
+                    39.4743,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "LOUISIANA-PACIFIC CORP.",
+                "description": "HWY 70 GEORGIA PACIFIC WAY, OROVILLE, CA, 95965<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD065021594)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.2557,
+                    33.9063,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "MARCH AIR FORCE BASE",
+                "description": "22 CSG/CC, RIVERSIDE, CA, 92518<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA4570024527)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.2972,
+                    38.5569,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "MATHER AIR FORCE BASE (AC&W DISPOSAL SITE)",
+                "description": "MATHER AIR FORCE BASE, MATHER, CA, 95655<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA8570024143)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.3994,
+                    38.66,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "MCCLELLAN AIR FORCE BASE (GROUND WATER CONTAMINATION)",
+                "description": "APPROX 5200 WATT AVE, MCCLELLAN AFB, CA, 95652<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA4570024337)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.9712,
+                    33.8953,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "MCCOLL",
+                "description": "ROSECRANS & SUNNY RIDGE, FULLERTON, CA, 92833<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980498695)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.3066,
+                    37.9478,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "MCCORMICK & BAXTER CREOSOTING CO.",
+                "description": "1214 W WASHINGTON ST, STOCKTON, CA, 95203<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD009106527)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.0109,
+                    38.784,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "MGM BRAKES",
+                "description": "HWY 101 & SANTANA RD, CLOVERDALE, CA, 95425<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD000074120)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.9964,
+                    37.6591,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "MODESTO GROUND WATER CONTAMINATION",
+                "description": "NEAR MODESTO, MODESTO, CA, 95351<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD981997752)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.05220000000001,
+                    37.4113,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "MOFFETT NAVAL AIR STATION",
+                "description": "MOFFETT FIELD NAS, MOFFETT FIELD, CA, 94035<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA2170090078)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.9968,
+                    37.3816,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "MONOLITHIC MEMORIES",
+                "description": "1165 E ARQUES AVE, SUNNYVALE, CA, 94086<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD049236201)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.2983,
+                    33.8483,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "MONTROSE CHEMICAL CORP.",
+                "description": "20201 S NORMANDIE AVE, TORRANCE, CA, 90502<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD008242711)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.8647,
+                    43.04800000000001,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "MOUNTAIN HOME AIR FORCE BASE",
+                "description": "HWY 67, 10 MI W OF CY, MOUNTAIN HOME, ID, 83648<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=ID3572124557)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.999397,
+                    37.375068,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "NATIONAL SEMICONDUCTOR CORP.",
+                "description": "2900 SEMICONDUCTOR AVE, SANTA CLARA, CA, 95050<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD041472986)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.3131,
+                    34.1718,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "NEWMARK GROUND WATER CONTAMINATION",
+                "description": "BUNKER HILL GROUND WATER BASIN, SAN BERNARDINO, CA, 92408<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD981434517)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.2372,
+                    34.098,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "NORTON AIR FORCE BASE (LNDFLL #2)",
+                "description": "I-10/US 395 FORMER NORTON AFB, SAN BERNARDINO, CA, 92408<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA4570024345)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.04220000000001,
+                    33.9697,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "OMEGA CHEMICAL CORPORATION",
+                "description": "12504 AND 12512 E. WHITTIER BOULEVARD, WHITTIER, CA, 90602<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD042245001)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.1055,
+                    34.0333,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "OPERATING INDUSTRIES, INC., LANDFILL",
+                "description": "900 N POTRERO GRANDE DR, MONTEREY PARK, CA, 91754<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAT080012024)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.90280000000001,
+                    34.4041,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "PACIFIC COAST PIPE LINES",
+                "description": "67 E TELEGRAPH RD, FILLMORE, CA, 93015<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980636781)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.17119999999998,
+                    33.9854,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "PEMACO MAYWOOD",
+                "description": "5050 SLAUSON BOULEVARD, MAYWOOD, CA, 90270<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980737092)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.74670000000002,
+                    36.6874,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "PURITY OIL SALES, INC.",
+                "description": "3265 S MAPLE AVE, MALAGA, CA, 93725<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980736151)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.00000000000001,
+                    33.75,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "RALPH GRAY TRUCKING CO.",
+                "description": "SOWELL AVE & GOLDEN WEST ST, WESTMINSTER, CA, 92683<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD981995947)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0533,
+                    37.3975,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "RAYTHEON CORP.",
+                "description": "350 ELLIS ST, MOUNTAIN VIEW, CA, 94043<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD009205097)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.91810000000001,
+                    37.7169,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "RIVERBANK ARMY AMMUNITION PLANT",
+                "description": "5300 CLAUS RD, RIVERBANK, CA, 95367<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA7210020759)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.3958,
+                    38.5202,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SACRAMENTO ARMY DEPOT",
+                "description": "8350 FRUITRIDGE RD, SACRAMENTO, CA, 95813<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA0210020780)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.35140000000001,
+                    34.19,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SAN FERNANDO VALLEY (AREA 1)",
+                "description": "NORTH HOLLYWOOD WELLFIELD AREA, NORTH HOLLYWOOD, CA, 91601<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980894893)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.286,
+                    34.1631,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SAN FERNANDO VALLEY (AREA 2)",
+                "description": "CRYSTAL SPRINGS WELLFIELD AREA, GLENDALE, CA, 91209<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980894901)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.41350000000001,
+                    34.2276,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SAN FERNANDO VALLEY (AREA 3)",
+                "description": "GLORIETTA WELLFIELD AREA, GLENDALE, CA, 91209<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980894984)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.2539,
+                    34.112,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SAN FERNANDO VALLEY (AREA 4)",
+                "description": "POLLOCK WELLFIELD, LOS ANGELES, CA, 90086<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980894976)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.00000000000001,
+                    34.125,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SAN GABRIEL VALLEY (AREA 1)",
+                "description": "PECK RD & REAL, EL MONTE, CA, 91733<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980677355)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.9361,
+                    34.0736,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SAN GABRIEL VALLEY (AREA 2)",
+                "description": "SUNSET & SAN BERNARDINO FREEWAY, BALDWIN PARK, CA, 91706<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980818512)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.125,
+                    34.1,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SAN GABRIEL VALLEY (AREA 3)",
+                "description": "MAIN ST & GAFIELD AVE, ALHAMBRA, CA, 91801<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980818579)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.95829999999998,
+                    34.0166,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SAN GABRIEL VALLEY (AREA 4)",
+                "description": "STIMSON AVE & OLD VALLEY BLVD, LA PUENTE, CA, 91744<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980817985)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.6017,
+                    36.5566,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SELMA TREATING CO.",
+                "description": "1735 DOCKERY AVE & ADJOINING, SELMA, CA, 93662<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD029452141)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.26720000000002,
+                    37.8291,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SHARPE ARMY DEPOT",
+                "description": "700 EAST ROTH RD, LATHROP, CA, 95330<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA8210020832)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.5931,
+                    38.2332,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SOLA OPTICAL USA, INC.",
+                "description": "3600 LAKEVILLE HWY, PETALUMA, CA, 94952<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD981171523)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.9811,
+                    37.4298,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SOUTH BAY ASBESTOS AREA",
+                "description": "FT OF LIBERTY ST GUADALUPE RIV, ALVISO, CA, 95002<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980894885)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.27670000000002,
+                    36.3333,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SOUTHERN CALIFORNIA EDISON CO. (VISALIA POLEYARD)",
+                "description": "432 BEN MADDOX WAY, VISALIA, CA, 93277<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980816466)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0786,
+                    37.408,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SPECTRA-PHYSICS, INC.",
+                "description": "1250 W MIDDLEFIELD RD, MOUNTAIN VIEW, CA, 94042<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD009138488)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.4583,
+                    34.023,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "STRINGFELLOW",
+                "description": "3490 PYRITE ST, MIRA LOMA, CA, 91752<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAT080012826)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.6703,
+                    39.0055,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SULPHUR BANK MERCURY MINE",
+                "description": "SULPHUR BANK ROAD, CLEARLAKE, CA, 95422<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980893275)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.9719,
+                    37.3773,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "SYNERTEK, INC. (BUILDING 1)",
+                "description": "3050 CORONADO BLVD, SANTA CLARA, CA, 95051<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD990832735)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.6605,
+                    36.7647,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "T.H. AGRICULTURE & NUTRITION CO.",
+                "description": "7183 E MCKINLEY AVE, FRESNO, CA, 93727<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD009106220)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0797,
+                    37.4108,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "TELEDYNE SEMICONDUCTOR",
+                "description": "1300 TERRA BELLA AVE, MOUNTAIN VIEW, CA, 94043<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD009111444)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.39110000000001,
+                    37.7152,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "TRACY DEFENSE DEPOT (USARMY)",
+                "description": "CHRISMAN RD, TRACY, CA, 95376<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA4971520834)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.9332,
+                    38.26440000000001,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "TRAVIS AIR FORCE BASE",
+                "description": "TRAVIS AFB, TRAVIS AFB, CA, 94535<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA5570024575)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3673,
+                    37.7222,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "TREASURE ISLAND NAVAL STATION-HUNTERS POINT ANNEX",
+                "description": "HUNTERS POINT NAVAL SHIPYARD, SAN FRANCISCO, CA, 94124<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CA1170090087)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.00849999999998,
+                    37.3846,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "TRW MICROWAVE, INC (BUILDING 825)",
+                "description": "825 STEWART DR, SUNNYVALE, CA, 94086<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD009159088)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3654,
+                    37.9226,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "UNITED HECKATHORN CO.",
+                "description": "8TH & WRIGHT, RICHMOND, CA, 94804<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD981436363)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.8239,
+                    37.4727,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "VALLEY WOOD PRESERVING, INC.",
+                "description": "2237 S GOLDEN STATE BLVD, TURLOCK, CA, 95380<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD063020143)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.055,
+                    33.95000000000001,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "WASTE DISPOSAL, INC.",
+                "description": "12731 E LOS NIETOS RD, SANTA FE SPRINGS, CA, 90670<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980884357)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.02900000000001,
+                    37.0511,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "WATKINS-JOHNSON CO. (STEWART DIVISION PLANT)",
+                "description": "440 KINGS VILLAGE RD, SCOTTS VALLEY, CA, 95066<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980893234)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.55250000000001,
+                    39.483,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "WESTERN PACIFIC RAILROAD CO.",
+                "description": "SEC 19 T19N R4E 2 MI S OF, OROVILLE, CA, 95965<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD980894679)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.02250000000001,
+                    37.3787,
+                    0
+                ]
+            },
+            "properties": {
+                "company": "WESTINGHOUSE ELECTRIC CORP. (SUNNYVALE PLANT)",
+                "description": "401 HENDY AVENUE, SUNNYVALE, CA, 95117<br><br> Superfund NPL site details (http://toxmap.nlm.nih.gov/toxmap/main/sfSite.jsp?epaID=CAD001864081)"
+            }
+        }
+    ]
+}

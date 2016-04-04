@@ -1,0 +1,533 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD048634059",
+        "company": "ADVANCED MICRO DEVICES, INC.",
+        "ADDRESS": "901 THOMPSON PL",
+        "CITY": "SUNNYVALE",
+        "STATE": "CA",
+        "ZIP": 94086,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "6/10/1986",
+        "HRS_SCORE": 37.93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0086,
+          37.3825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAT080034234",
+        "company": "ADVANCED MICRO DEVICES, INC. (BUILDING 915)",
+        "ADDRESS": "915 DEGUIGNE",
+        "CITY": "SUNNYVALE",
+        "STATE": "CA",
+        "ZIP": 94086,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "8/30/1990",
+        "HRS_SCORE": 31.94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0066, 
+          37.3868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD042728840",
+        "company": "APPLIED MATERIALS",
+        "ADDRESS": "3050 BOWERS AVE",
+        "CITY": "SANTA CLARA",
+        "STATE": "CA",
+        "ZIP": 95051,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "7/22/1987",
+        "HRS_SCORE": 31.94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.978512, 
+          37.377631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD009212838",
+        "company": "CTS PRINTEX, INC.",
+        "ADDRESS": "PLYMOUTH & COLONY STS",
+        "CITY": "MOUNTAIN VIEW",
+        "STATE": "CA",
+        "ZIP": 94043,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "2/21/1990",
+        "HRS_SCORE": 33.62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.088818, 
+          37.415342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD095989778",
+        "company": "FAIRCHILD SEMICONDUCTOR CORP. (MOUNTAIN VIEW PLANT)",
+        "ADDRESS": "464 ELLIS ST",
+        "CITY": "MOUNTAIN VIEW",
+        "STATE": "CA",
+        "ZIP": 94042,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "2/11/1991",
+        "HRS_SCORE": 31.94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0542,
+          37.4012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD097012298",
+        "company": "FAIRCHILD SEMICONDUCTOR CORP. (SOUTH SAN JOSE PLANT)",
+        "ADDRESS": "101 BERNAL ROAD",
+        "CITY": "SAN JOSE",
+        "STATE": "CA",
+        "ZIP": 95119,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "10/4/1989",
+        "HRS_SCORE": 44.46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7748,
+          37.2326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD980884209",
+        "company": "HEWLETT-PACKARD (620-640 PAGE MILL ROAD)",
+        "ADDRESS": "620 - 640 PAGE MILL RD.",
+        "CITY": "PALO ALTO",
+        "STATE": "CA",
+        "ZIP": 94304,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "2/21/1990",
+        "HRS_SCORE": 29.76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -122.145609, 
+         37.421886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD061620217",
+        "company": "INTEL CORP. (MOUNTAIN VIEW PLANT)",
+        "ADDRESS": "365 E MIDDLEFIELD RD",
+        "CITY": "MOUNTAIN VIEW",
+        "STATE": "CA",
+        "ZIP": 94040,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "6/10/1986",
+        "HRS_SCORE": 29.76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0566,
+          37.3962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAT000612184",
+        "company": "INTEL CORP. (SANTA CLARA III)",
+        "ADDRESS": "2880 NORTHWESTERN PKWY",
+        "CITY": "SANTA CLARA",
+        "STATE": "CA",
+        "ZIP": 95051,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "6/10/1986",
+        "HRS_SCORE": 31.94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9717,
+          37.3737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD092212497",
+        "company": "INTEL MAGNETICS",
+        "ADDRESS": "3000 OAKMEAD VILLAGE DR",
+        "CITY": "SANTA CLARA",
+        "STATE": "CA",
+        "ZIP": 95051,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "6/10/1986",
+        "HRS_SCORE": 31.94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9801,
+          37.3756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD041472341",
+        "company": "INTERSIL INC./SIEMENS COMPONENTS",
+        "ADDRESS": "10900 N TANTAU AVE/19000 HOMESTEAD RD",
+        "CITY": "CUPERTINO",
+        "STATE": "CA",
+        "ZIP": 95014,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "8/30/1990",
+        "HRS_SCORE": 28.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0015,
+          37.3361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD009103318",
+        "company": "JASCO CHEMICAL CORP.",
+        "ADDRESS": "1710 VILLA ST",
+        "CITY": "MOUNTAIN VIEW",
+        "STATE": "CA",
+        "ZIP": 94041,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "10/4/1989",
+        "HRS_SCORE": 35.36
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.089119, 
+          37.398893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD029295706",
+        "company": "LORENTZ BARREL & DRUM CO.",
+        "ADDRESS": "1515 S 10TH ST",
+        "CITY": "SAN JOSE",
+        "STATE": "CA",
+        "ZIP": 95112,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "10/4/1989",
+        "HRS_SCORE": 33.94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8644,
+          37.3186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CA2170090078",
+        "company": "MOFFETT NAVAL AIR STATION",
+        "ADDRESS": "MOFFETT FIELD NAS",
+        "CITY": "MOFFETT FIELD",
+        "STATE": "CA",
+        "ZIP": 94035,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "7/22/1987",
+        "HRS_SCORE": 29.49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0522,
+          37.4113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD049236201",
+        "company": "MONOLITHIC MEMORIES",
+        "ADDRESS": "1165 E ARQUES AVE",
+        "CITY": "SUNNYVALE",
+        "STATE": "CA",
+        "ZIP": 94086,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "7/22/1987",
+        "HRS_SCORE": 35.57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.997465, 
+          37.381146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD041472986",
+        "company": "NATIONAL SEMICONDUCTOR CORP.",
+        "ADDRESS": "2900 SEMICONDUCTOR AVE",
+        "CITY": "SANTA CLARA",
+        "STATE": "CA",
+        "ZIP": 95050,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "7/22/1987",
+        "HRS_SCORE": 35.57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.001707, 
+          37.375568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD009205097",
+        "company": "RAYTHEON CORP.",
+        "ADDRESS": "350 ELLIS ST",
+        "CITY": "MOUNTAIN VIEW",
+        "STATE": "CA",
+        "ZIP": 94043,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "6/10/1986",
+        "HRS_SCORE": 29.76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -122.054439, 
+         37.397311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD980894885",
+        "company": "SOUTH BAY ASBESTOS AREA",
+        "ADDRESS": "FT OF LIBERTY ST GUADALUPE RIV",
+        "CITY": "ALVISO",
+        "STATE": "CA",
+        "ZIP": 95002,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "6/10/1986",
+        "HRS_SCORE": 44.68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9811,
+          37.4298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD009138488",
+        "company": "SPECTRA-PHYSICS, INC.",
+        "ADDRESS": "1250 W MIDDLEFIELD RD",
+        "CITY": "MOUNTAIN VIEW",
+        "STATE": "CA",
+        "ZIP": 94042,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "2/11/1991",
+        "HRS_SCORE": 37.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.080231, 
+          37.407929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD990832735",
+        "company": "SYNERTEK, INC. (BUILDING 1)",
+        "ADDRESS": "3050 CORONADO BLVD",
+        "CITY": "SANTA CLARA",
+        "STATE": "CA",
+        "ZIP": 95051,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "10/4/1989",
+        "HRS_SCORE": 31.94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9719,
+          37.3773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD009111444",
+        "company": "TELEDYNE SEMICONDUCTOR",
+        "ADDRESS": "1300 TERRA BELLA AVE",
+        "CITY": "MOUNTAIN VIEW",
+        "STATE": "CA",
+        "ZIP": 94043,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "7/22/1987",
+        "HRS_SCORE": 35.35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0797,
+          37.4108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD009159088",
+        "company": "TRW MICROWAVE, INC (BUILDING 825)",
+        "ADDRESS": "825 STEWART DR",
+        "CITY": "SUNNYVALE",
+        "STATE": "CA",
+        "ZIP": 94086,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "2/21/1990",
+        "HRS_SCORE": 31.94
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.009156, 37.384591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "EPA_ID": "CAD001864081",
+        "company": "WESTINGHOUSE ELECTRIC CORP. (SUNNYVALE PLANT)",
+        "ADDRESS": "401 HENDY AVENUE",
+        "CITY": "SUNNYVALE",
+        "STATE": "CA",
+        "ZIP": 95117,
+        "COUNTY": "SANTA CLARA",
+        "FIPS": "06085",
+        "NPL_STATUS": "Final",
+        "STATUSDATE": "6/10/1986",
+        "HRS_SCORE": 39.93
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0225,
+          37.3787
+        ]
+      }
+    }
+  ]
+}

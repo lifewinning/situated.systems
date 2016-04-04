@@ -1,0 +1,328 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.1316067,37.4729]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1990 Bay Road, East Palo Alto CA",
+			"company": "Zoecon Rhone Poulenc",
+			"api_address": "1990 Bay Flat Road",
+			"confidence": 0.88
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.129068, 37.476378]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2081 Bay Road, Palo Alto CA",
+			"company": "Romic Chemical Corp",
+			"api_address": "2081 Bay Road",
+			"confidence": 0.973
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.145738, 37.423493]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "601 California Avenue, Palo Alto CA",
+			"company": "Varian Associates",
+			"api_address": "601 California Avenue",
+			"confidence": 0.955
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.141983, 37.439604]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "175 Weeks Street, Palo Alto CA",
+			"company": "Cal-Mac",
+			"api_address": "1755 Webster Street",
+			"confidence": 0.902
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.2042831,37.420114]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2575 Sandhill Road, Menlo Park CA",
+			"company": "Stanford Linear Accelerator",
+			"api_address": "2575 Sandhill Road",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.136705, 37.422577]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3201 Ash Street, Palo Alto CA",
+			"company": "Dura Bond",
+			"api_address": "3201 Ash Street",
+			"confidence": 0.959
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.141007, 37.422747]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "2875 El Camino Real, Palo Alto CA",
+			"company": "Stanford Cleaners",
+			"api_address": "2875 El Camino Real",
+			"confidence": 0.959
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.145609, 37.421886]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "640 Page Mill Road, Palo Alto CA",
+			"company": "Hewlett-Packard",
+			"api_address": "640 Page Mill Road",
+			"confidence": 0.963
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.143764, 37.418984]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "925 Page Mill Road, Palo Alto CA",
+			"company": "Eastman Kodak",
+			"api_address": "925 Page Mill Road",
+			"confidence": 0.955
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.149382, 37.406923]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3176 Porter Drive, Palo Alto CA",
+			"company": "Teledyne MEC",
+			"api_address": "3176 Porter Drive",
+			"confidence": 0.962
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.143307, 37.40804]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3333 Hillview Drive, Palo Alto CA",
+			"company": "Hillview-Porter(Watkins Johnson Well)",
+			"api_address": "3333 Hillview Avenue",
+			"confidence": 0.906
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.148505, 37.412152]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1501 Page Mill Road, Palo Alto CA",
+			"company": "Hewlett-Packard",
+			"api_address": "1501 Page Mill Road",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.150343, 37.394555]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "3500 Deer Creek Road, Palo Alto CA",
+			"company": "Hewlett-Packard",
+			"api_address": "3500 Deer Creek Road",
+			"confidence": 0.962
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.136592, 37.401467]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "4001 Miranda Avenue, Palo Alto CA",
+			"company": "Fairchild Semiconductor Corp",
+			"api_address": "4001 Miranda Avenue",
+			"confidence": 0.976
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.110021, 37.380144]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "98 Eleanor Ave, Los Altos CA",
+			"company": "Hillview Eleanor Plume",
+			"api_address": "98 Eleanor Avenue",
+			"confidence": 0.916
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.088818, 37.415342]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1950 Colony Street, Mountain View CA",
+			"company": "CTS Printex Inc.",
+			"api_address": "1951 Colony Street",
+			"confidence": 0.74
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.080231, 37.407929]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1250 W. Middlefield Road, Mountain View CA",
+			"company": "Spectra Physics",
+			"api_address": "1250 Middlefield Road",
+			"confidence": 0.74
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.089119, 37.398893]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1710 Villa Street, Mountain View CA",
+			"company": "Jasco Chemical Corp",
+			"api_address": "1710 Villa Street",
+			"confidence": 0.976
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.053113, 37.399525]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "464 Ellis Street, Mountain View CA",
+			"company": "Fairchild Semiconductor Corp",
+			"api_address": "464 Ellis Street",
+			"confidence": 0.961
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.051665, 37.400423]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "501 Ellis Street, Mountain View CA",
+			"company": "NEC Electronics",
+			"api_address": "501 Ellis Street",
+			"confidence": 0.96
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.0599527,37.3963887]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "365 E.Middlefield Road, Mountain View CA",
+			"company": "Intel",
+			"api_address": "365 E.Middlefield Road",
+			"confidence": 0.74
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.054439, 37.397311]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "350 Ellis Street, Mountain View CA",
+			"company": "Raytheon Co.",
+			"api_address": "350 Ellis Street",
+			"confidence": 0.976
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.050706, 37.397756]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "333 Logue Avenue, Mountain View CA",
+			"company": "Hewlett-Packard",
+			"api_address": "410 Logue Avenue",
+			"confidence": 0.74
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.0559249,37.4010886]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "405 National Avenue, Mountain View CA",
+			"company": "Siltec",
+			"api_address": "405 National Avenue",
+			"confidence": 0.976
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.028613, 37.400787]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "940 Hamlin Court, Sunnyvale CA",
+			"company": "Circo Inc.",
+			"api_address": "940 Hamlin Court",
+			"confidence": 0.979
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-122.0151743,37.4038799]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "425 Tasman Drive, Sunnyvale CA",
+			"company": "ESL Inc.",
+			"api_address": "42 Tasman Drive",
+			"confidence": 0.891
+		}
+	}, {
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-121.989977, 37.407956]
+		},
+		"type": "Feature",
+		"properties": {
+			"original_address": "1276 Hammerwood Ave, Sunnyvale CA",
+			"company": "Intersil (GE)",
+			"api_address": "1276 Hammerwood Avenue",
+			"confidence": 0.919
+		}
+	}]
+}

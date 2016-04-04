@@ -1,0 +1,45 @@
+company,address,city,final_superfund
+Solvent Service,1021 Berryessa Road,San Jose,true
+IBM,5600 Cottle Road,San Jose,true
+Fairchild,101 Bernal Road,San Jose,true
+Van Waters and Rogers,2256 Junction Ave,San Jose,true
+Pacific Nursery,1015 Martin Ave,Santa Clara,false
+National Semiconductor,2900 Semiconductor Drive,Santa Clara,true
+Magnex Corp,6850 Santa Teresa Blvd,San Jose,false
+Technical Coatings,1000 Walsh Ave, Santa Clara,false
+Westnghouse,401 E. Hendy Ave,Sunnyvale,false
+Avantek,Inc.,3175 Bowers Ave,Santa Clara,false
+Lorentz Barrel & Drum,1515 S.10th Street,San Jose,true
+TRW,625 Stewart Drive,Sunnyvale,true
+Applied Materials,3050 Bowers Ave,Santa Clara,true
+Sigenetics Corp,811 E. Arques Ave,Sunnyvale,true
+Memorex Corp,1200 Memorex Drive,Santa Clara,false
+Hewlett-Packard,974 E. Arques Ave,Sunnyvale,true
+Xidex,305 Soquel Way,Sunnyvale,false
+Sigenetics Corp,860 Kifer Road,Sunnyvale,false
+AMD,901 Thompson Pl,Sunnyvale,true
+Monsanto,2710 Lafayette St,Santa Clara,false
+Precision Media,1262 N. Lawrence Station Road,Sunnyvale,false
+Spectra Physics,2905 Stender Way,Santa Clara,true
+Precision Mono,1500 Space Park Drive,Santa Clara,false
+Advanced LSI,639 N. Pastoria Ave,Sunnyvale,false
+Intersil,1276 Hammerwood Ave,Sunnyvale,false
+UTC,1050 E. Arques Ave,Sunnyvale,false
+Fairchild,3105 Alfred St,Santa Clara,true
+Verbatim Corp,360 N.Pastoria Ave,Sunnyvale,false
+Ampex Corp,728 San Alexo,Sunnyvale,false
+Circo,940 Hamlin Court,Sunnyvale,false
+KTI Chemicals,1120 Sonora Ave,Sunnyvale,false
+AMD,915 DeGuigne Drive,Sunnyvale,true
+Signetics Corp,740 Kifer Road,Sunnyvale,false
+MMI,1165 E. Arques Ave,Sunnyvale,false
+Dysan,5440 Patrick Henry Drive,Santa Clara,false
+Magnetic Peripherals,3333 Scott Blvd,Santa Clara,false
+Synertek,3050 Coronado Blvd,Santa Clara,true
+Exar-Integrated,750 Palomar Ave,Sunnyvale,false
+Indel-SC3,3000 Oakmead Parkway,Santa Clara,true
+Data General,433 N. Matilda Ave,Sunnyvale,false
+Hewlett Packard,350 W. Trimble Avenue,San Jose
+Zymos,477 N. Matilda Ave,Sunnyvale
+Intel-Magnetics,2880 Northwestern Parkway,Santa Clara
+Dysan,5200 Patrick Henry Drive,Santa Clara

@@ -101,7 +101,7 @@ addLayer(epa,'Official Superfund','epa')
 //this is the thing that controls all the layers, it's important
 function addLayer(layer, name, id) {
     // making the circle choice a part of this function good idea or bad idea
-
+    layer.addTo(map)
     //generating a key of layers so viewer can select to add and remove at will
     var item = document.createElement('li');
     var link = document.createElement('a');

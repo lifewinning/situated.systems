@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="styles.css" />
+<body>
+<script src="d3.v3.min.js"></script>
+<script src="d3.geo.tile.v0.min.js"></script>
+<script src="https://cdn.rawgit.com/mbostock/topojson/3ed6ee9e04d4/topojson.js"></script>
+<script src='//s3.amazonaws.com/assets-staging.mapzen.com/ui/components/bug/bug.min.js'></script>
+<script type='text/javascript'>
+  window.bugTitle = 'Map using d3 and topojson';
+  
+  var layers = ['water', 'landuse', 'roads', 'buildings'];
+  window.renderTiles = function(d) {
+    var svg = d3.select(this);
+    var zoom = d[2];
+    this._xhr = d3.json("https://vector.mapzen.com/osm/all/" + zoom + "/" + d[0] + "/" + d[1] + ".topojson?api_key=vector-tiles-LM25tq4", function(error, json) {
+      var k = Math.pow(2, d[2]) * 256; // size of the world in pixels
+
+      tilePath.projection()
+          .translate([k / 2 - d[0] * 256, k / 2 - d[1] * 256]) // [0°,0°] in pixels
+          .scale(k / 2 / Math.PI)
+          .precision(0);
+      
+      var data = {};
+      for (var key in json.objects) {
+        data[key] = topojson.feature(json, json.objects[key]);
+      }
+      
+      // build up a single concatenated array of all tile features from all tile layers
+      var features = [];
+      layers.forEach(function(layer){
+        if(data[layer])
+        {
+            for(var i in data[layer].features)
+            {
+                // Don't include any label placement points
+                if(data[layer].features[i].properties.label_placement == 'yes') { continue }
+                
+                // Don't show large buildings at z13 or below.
+                if(zoom <= 13 && layer == 'buildings') { continue }
+                
+                // Don't show small buildings at z14 or below.
+                if(zoom <= 14 && layer == 'buildings' && data[layer].features[i].properties.area < 2000) { continue }
+                
+                data[layer].features[i].layer_name = layer;
+                features.push(data[layer].features[i]);
+                console.log(i)
+            }
+        }
+      });
+      
+      // put all the features into SVG paths
+      svg.selectAll("path")
+        .data(features.sort(function(a, b) { return a.properties.sort_key ? a.properties.sort_key - b.properties.sort_key : 0 }))
+      .enter().append("path")
+        .attr("class", function(d) { var kind = d.properties.kind || ''; if(d.properties.boundary=='yes'){kind += '_boundary';} return d.layer_name + '-layer ' + kind; })
+        .attr("d", tilePath);
+    });
+  };
+</script>
+<script src="scripts.js"></script>

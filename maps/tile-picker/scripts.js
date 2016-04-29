@@ -23,15 +23,14 @@ var tilePath = d3.geo.path()
 var zoom = d3.behavior.zoom()
     .scale(projection.scale() * 2 * Math.PI)
     .scaleExtent([1 << 12, Infinity]) // 12 to 25 is roughly z4-z5 to z17
-    //sf - 37.7524/-122.4407
     .translate(projection([origin[0], origin[1]]).map(function(x) { return -x; }))
-    .on("zoom", zoomed);
+    .on("zoom", zoomed)
 
 var map = d3.select("body").append("div")
     .attr("class", "map")
     .style("width", width + "px")
     .style("height", height + "px")
-    .call(zoom);
+    .call(zoom).on("dblclick.zoom", null);
 
 var layer = map.append("div")
     .attr("class", "layer");
@@ -52,6 +51,10 @@ var zoom_out = zoom_controls.append("a")
 var info = map.append("div")
     .attr("class", "info")
     .html('<a href="http://bl.ocks.org/mbostock/5593150" target="_top">Mike Bostock</a> | © <a href="https://www.openstreetmap.org/copyright" target="_top">OpenStreetMap contributors</a> | <a href="https://mapzen.com/projects/vector-tiles" title="Tiles courtesy of Mapzen" target="_top">Mapzen</a>');
+
+ var download = map.append("div")
+    .attr("class", "download")
+
 
 zoomed();
 
@@ -166,17 +169,9 @@ function zoomClick() {
 
 d3.selectAll('a.zoom').on('click', zoomClick);
 
-//disable mousewheel zoom if iframed
-if (window.self !== window.top) {
-  map.on("wheel.zoom", null);
-
-  document.documentElement.className += ' mapzen-demo-iframed';
-}
 
 // Hide zoom control on touch devices, which interferes with project page navigation overlay
 if (('ontouchstart' in window) || (window.DocumentTouch && document instanceof DocumentTouch)) {
   document.getElementsByClassName('zoom-container')[0].style.display = 'none';
 }
-
-// download function
 

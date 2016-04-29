@@ -21,7 +21,7 @@ svg:hover{
   width: 26px;
   position: absolute;
   top: 10px;
-  right: 10px;
+  left: 10px;
 }
 
 a.zoom {
@@ -76,9 +76,26 @@ a.zoom:last-child {
 .tile .park, .tile .nature_reserve, .tile .wood, .tile .protected_land { fill: #88D18A; stroke: #88D18A; stroke-width: 0.5px; }
 .tile .rail { stroke: #503D3F; stroke-width: 0.5px; }
 
+canvas{
+  border: 1px dotted red;
+  width: 125px;
+  height: 125px;
+  padding: 2px;
+}
+.download{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 2;
+  padding: 5px;
+  font: 12px "Helvetica Neue", sans-serif;
+  background: #fff;
+  // opacity: 0;
+  overflow: scroll;
+}
 
-.tile path:hover{
-  stroke: red; stroke-width: 1.5px
+.download a:hover{
+  background: papayawhip; // just for lulz
 }
 
 .info {
@@ -86,7 +103,6 @@ a.zoom:last-child {
   bottom: 0px;
   right: 0px;
   background: #fff; 
-
   background: rgba(255, 255, 255, 0.8);
   margin: 0;
   padding: 0px 5px;
@@ -101,9 +117,4 @@ a.zoom:last-child {
 
 .info a:hover {
   text-decoration: underline;
-}
-
-.download{
-  top: 0;
-
 }

@@ -7,7 +7,62 @@
 <script src="d3.geo.tile.v0.min.js"></script>
 <script src="FileSaver.min.js"></script>
 <script type='text/javascript'>
-  
+
+  selectedTiles = []
+  previewTiles = []
+
+  function gatherPaths(s){
+    nodes = Array.from(s.childNodes)
+    saveSVG = document.createElement('svg')
+    nodes.forEach(function(n){
+      style = window.getComputedStyle(n)
+      n.setAttribute('fill', style.fill)
+      n.setAttribute('stroke',style.stroke)
+      n.setAttribute('stroke-width',style.strokeWidth)
+      //maybe don't append things if you can't see them ugh fix this later
+      if (n.fill != 'none' && n.stroke !='none'){
+        newnode = n.cloneNode()
+        saveSVG.appendChild(newnode) 
+      }
+      
+    }) 
+    obj = {}
+    file = d3.select(saveSVG)
+    .attr('height', 256)
+    .attr('id',s.id)
+    .attr('width',256)
+    .attr("version", 1.1)
+    .attr("xmlns", "http://www.w3.org/2000/svg")
+    //hacky way to store ID
+    obj.id = s.id
+    obj.paths = file[0][0].outerHTML
+    selectedTiles.push(obj)
+    //toPNG(s)
+    s.style.border = '3px dotted green'
+  }
+
+
+  function toPNG(s){
+    //https://gist.github.com/gustavohenke/9073132
+    var svgData = new XMLSerializer().serializeToString( s );
+
+    var canvas = document.createElement( "canvas" );
+    // var svgSize = s.getBoundingClientRect();
+    // canvas.width = (svgSize.width*1.25)/2;
+    // canvas.height = svgSize.height/2;
+    canvas.id = s.id;
+    var ctx = canvas.getContext( "2d" );
+
+    var img = document.createElement( "img" );
+    img.setAttribute( "src", "data:image/svg+xml;base64," + btoa( svgData ) );
+
+    img.onload = function() {
+        ctx.drawImage( img, 0, 0, canvas.width, canvas.height);
+        previewTiles.push(canvas)
+
+    }
+
+  }
   var layers = ['water', 'landuse', 'roads', 'buildings'];
   window.renderTiles = function(d) {
     var svg = d3.select(this);
@@ -50,35 +105,25 @@
         .attr("d", tilePath);
 
     });
-    svg.on('click', function() {
-          nodes = Array.from(this.childNodes)
-          //nodes = this.getElementsByTagName('path')
-          console.log(nodes.length)
-          saveSVG = document.createElement('svg')
-          nodes.forEach(function(n){
-            style = window.getComputedStyle(n)
-            n.setAttribute('fill', style.fill)
-            n.setAttribute('stroke',style.stroke)
-            n.setAttribute('stroke-width',style.strokeWidth)
-            //maybe don't append things if you can't see them ugh fix this later
-            newnode = n.cloneNode()
-            saveSVG.appendChild(newnode) 
-          }) 
-          file = d3.select(saveSVG)
-          .attr('height', 256)
-          .attr('id',this.id)
-          .attr('width',256)
-          .attr("version", 1.1)
-          .attr("xmlns", "http://www.w3.org/2000/svg")
-          //console.log(file[0][0].outerHTML)
-          var blob = new Blob([file[0][0].outerHTML], {type: 'image/svg+xml'});
-          saveAs(blob, this.id+'.svg');
+    svg.on('dblclick', function() {
+      d = document.querySelector('.download')
+      d.width = 275+'px';
+      d.innerHTML = "<a id = 'download' onclick='downloadSVGs(selectedTiles)'>Download "+(1+selectedTiles.length)+" Selected Tiles</a>"
+      gatherPaths(this)    
     });
 
   };
+  function downloadSVGs(array){
+    array.forEach(function(a){
+      var blob = new Blob([a.paths], {type: 'image/svg+xml'})
+      saveAs(blob, a.id+'.svg');
+    })
+  }
+  function preview(array){
+    array.forEach(function(a){
+      d = document.querySelector('.download')
+      d.appendChild(a)
+    })
+  }
 </script>
 <script src="scripts.js"></script>
-<!-- <div class="download">
-  <button><h1>download SVG of </h1></button>
-</div>
- -->

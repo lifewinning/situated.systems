@@ -59,9 +59,9 @@ a.zoom:last-child {
 
 .tile path {
   fill: none;
-  stroke: #fff;
-  stroke-linejoin: round;
-  stroke-linecap: round;
+  //stroke: #fff;
+  //stroke-linejoin: round;
+  //stroke-linecap: round;
 }
 
 

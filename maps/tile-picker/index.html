@@ -60,6 +60,7 @@
             n.setAttribute('fill', style.fill)
             n.setAttribute('stroke',style.stroke)
             n.setAttribute('stroke-width',style.strokeWidth)
+            //maybe don't append things if you can't see them ugh fix this later
             newnode = n.cloneNode()
             saveSVG.appendChild(newnode) 
           }) 

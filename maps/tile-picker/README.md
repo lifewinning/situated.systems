@@ -1,40 +1,16 @@
-# d3-vector-tiles
-Adapting d3.geo.tile to show Mapzen vector tiles
+# Super Basic Tile Picker
 
-Live demo: http://mapzen.github.io/d3-vector-tiles
+A still-unstable, no frills interface for taking tile data and, tile by tile, downloading it as SVGs. Made by basically [cannibalizing a Mapzen demo](http://mapzen.github.io/d3-vector-tiles/), because that was faster (hey guise hey thanks for that). 
 
-![d3-vector-tiles-demo screenshot](https://cloud.githubusercontent.com/assets/853051/12131885/41b9ae18-b3cb-11e5-9443-d9b237576c8e.png)
+###Why Would I Need Just Individual Tiles and Not The Full Map On My Screen?
 
-## Demos
+- [Binx is already on the full map downloader problem](https://github.com/mapzen/svg-export). (Also, Binx I used your hashing function it's really great you're great)
+- In this case, I needed to make a large mixed media map installation which would use a grid system for the map itself, and this method broke everything into tiles for me!
+- Also I'm a masochist
+- OK maybe I just want to lasercut some coasters, OK maybe I *want that* don't judge me
 
-There are three demos, one per vector tile format.
+###Yes, I Need To Do This
 
-* MVT - [index.html](index.html)
-* TopoJSON - [topojson.html](topojson.html)
-* GeoJSON - [geojson.html](geojson.html)
-
-#### Recommended pairings
-
-* **D3** works best with **TopoJSON** tiles
-* **Tangram JS** works best with **TopoJSON** tiles
-* **Tangram ES** works best with **MVT** tiles
-* **Mapbox Studio** works best with **MVT** tiles
-
-#### Format pros & cons
-
-* **TopoJSON** tiles have comparable file size to MVT (they are compressed during server-client requests) and is better for JS based web development.
-* **MVT** offers smallest absolute file size in a binary format ideally suited for mobile applications (fastest processing time in native code, slower processing time in web browsers), but hard to debug.
-* **GeoJSON** is useful for debugging as it's more human readable than the other formats (not recommended for production).
-
-
-### To run locally:
-
-Download this repo, then start a web server in its directory:
-
-    python -m SimpleHTTPServer 8000
-    
-If that doesn't work, try:
-
-    python -m http.server 8000
-    
-Then navigate to: [http://localhost:8000](http://localhost:8000)
+- don't download extra crufty things (i.e. if fill, stroke, and strokeWidth don't exist why am I adding them, lazy bum)
+- something for keeping track of what tiles you've downloaded or to gather and bulk download all tiles at once (although like, again, Binx is on it)
+- style selectors in browser would be cool I guess but at what point am I literally making GIS software 

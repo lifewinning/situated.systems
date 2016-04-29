@@ -96,7 +96,7 @@ function zoomed() {
 
   image.enter().append("svg")
       .attr("class", "tile")
-      .attr("id", function(d){return "tile_"+d[0]+'_'+d[1]})
+      .attr("id", function(d){return "tile_"+zoomLevel+'_'+d[0]+'_'+d[1]})
       //add id using position onscreen
       .style("left", function(d) { return d[0] * 256 + "px"; })
       .style("top", function(d) { return d[1] * 256 + "px"; })

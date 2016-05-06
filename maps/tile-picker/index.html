@@ -7,9 +7,8 @@
 <script src="d3.geo.tile.v0.min.js"></script>
 <script src="FileSaver.min.js"></script>
 <script type='text/javascript'>
-
-  selectedTiles = []
-  previewTiles = []
+selectedTiles = []
+previewTiles = []
 
   function gatherPaths(s){
     nodes = Array.from(s.childNodes)
@@ -20,7 +19,11 @@
       n.setAttribute('stroke',style.stroke)
       n.setAttribute('stroke-width',style.strokeWidth)
       //maybe don't append things if you can't see them ugh fix this later
-      if (n.fill != 'none' && n.stroke !='none'){
+      if (n.fill !== 'none'){
+        newnode = n.cloneNode()
+        saveSVG.appendChild(newnode) 
+      }
+      if (n.stroke !== 'none'){
         newnode = n.cloneNode()
         saveSVG.appendChild(newnode) 
       }
@@ -41,7 +44,7 @@
     s.style.border = '3px dotted green'
   }
 
-
+  // not sure this actually needs to be part of the thing/needs debugging
   function toPNG(s){
     //https://gist.github.com/gustavohenke/9073132
     var svgData = new XMLSerializer().serializeToString( s );

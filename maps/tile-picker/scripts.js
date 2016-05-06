@@ -54,6 +54,7 @@ var info = map.append("div")
 
  var download = map.append("div")
     .attr("class", "download")
+    .html('Double-click a tile to add it to collection for download. You can download multiple files at a time!')
 
 
 zoomed();
@@ -104,6 +105,8 @@ function zoomed() {
       .style("left", function(d) { return d[0] * 256 + "px"; })
       .style("top", function(d) { return d[1] * 256 + "px"; })
       .each(window.renderTiles);
+  checkTiles();
+  
 }
 
 function matrix3d(scale, translate) {
@@ -173,5 +176,24 @@ d3.selectAll('a.zoom').on('click', zoomClick);
 // Hide zoom control on touch devices, which interferes with project page navigation overlay
 if (('ontouchstart' in window) || (window.DocumentTouch && document instanceof DocumentTouch)) {
   document.getElementsByClassName('zoom-container')[0].style.display = 'none';
+}
+
+function checkTiles(){
+    // for zoom functions if tile id is in selectedTiles, add green border so you remember what you downloaded already
+    tiles = Array.from(document.getElementsByClassName('tile'))
+    function index(value, array){
+      return array.indexOf(value) > -1;
+    }
+    IDArray = []
+    if (selectedTiles.length > 0){
+      selectedTiles.forEach(function(s){
+        IDArray.push(s.id)
+      })
+    }
+    tiles.forEach(function(t){
+      if (index(t.id,IDArray)){
+        t.style.border = '2px dotted green'
+      }
+    })
 }
 

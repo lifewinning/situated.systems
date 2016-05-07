@@ -11,6 +11,13 @@ h1, h2, h3, h4, h5, h6, p{
 	line-height: 1.5;	
 }
 
+input {
+  width: 100%;
+  font-size: 2em; 
+  display: block;
+  float: left;
+  clear: both;
+}
 
 h1{
 	font-family:"neuzeit-grotesk-condensed";
@@ -53,3 +60,20 @@ a:hover {
 		text-decoration: none;
 	}
 
+.tags{
+	background-color: #01903A;
+	padding: 2px;
+	margin-right: 3px;
+}
+.row{
+	display:inline-flex;
+	width: 100%;
+	flex-wrap: wrap;
+	margin:auto;
+	justify-content:center;
+}
+.item{
+	background-color:#FFA707;
+	padding: 5px;
+	border: 2px dotted papayawhip;
+}

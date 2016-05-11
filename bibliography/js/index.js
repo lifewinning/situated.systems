@@ -48,6 +48,9 @@ function loadHash(d) {
     window.location.hash = encodeURIComponent(this.value)
     search(this)
   }
+  if (document.querySelector("input").value = ""){
+    item = document.querySelectorAll('.item').style.display.block
+  }
 }
 
 var xhr = new XMLHttpRequest();

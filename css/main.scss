@@ -28,16 +28,18 @@ h1{
 }
 
 .col-md-12{
-	min-height: 100vh;
+	//min-height: 100vh;
 	padding-bottom: 15px;
 }
 
 #lead{
 	background-color:#00D455;
+	min-height: 75vh;
 	
 }
 
 #zine{
+	min-height: 100vh;
 	background-color: #FFA707;
 }
 

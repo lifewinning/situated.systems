@@ -54,7 +54,7 @@ function loadHash(d) {
 }
 
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "./bibliography.json", true);
+xhr.open("GET", "bibliography.json", true);
 
 xhr.onload = function() {
   if (xhr.status === 200) {

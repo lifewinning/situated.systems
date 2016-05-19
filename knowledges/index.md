@@ -9,20 +9,17 @@ metadata: zine
 
 <div class="zine row" markdown="1">
 
-## Issue 01: Scott Kildall
+<h2>Issue 01: Scott Kildall</h2>
 
-<br>
-
-### [PDF for screen](01/situatedsystems_zine01_screen.pdf) | [PDF for print](01/situatedsystems_zine01_diy.pdf)
+<h3><a href="01/situatedsystems_zine01_screen.pdf">PDF for screen</a> | <a href="01/situatedsystems_zine01_diy.pdf"PDF for print</a></h3>
 
 </div>
 
 <div class="zine row" markdown="1">
 
-## Issue 02: Machines
+<h2>Issue 02: Machines</h2>
 
-<br>
 
-### [PDF for screen](02/situatedsystems_zine02_screen.pdf) | [PDF for print](02/situatedsystems_zine02_diy.pdf)
+<h3><a href="02/situatedsystems_zine02_screen.pdf">PDF for screen</a> | <a href="02/situatedsystems_zine02_diy.pdf">PDF for print</a></h3>
 
 </div>

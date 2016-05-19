@@ -14,3 +14,11 @@ metadata: zine
 ### [PDF for screen](01/situatedsystems_zine01_screen.pdf) | [PDF for print](01/situatedsystems_zine01_diy.pdf)
 
 </div>
+
+<div class="zine row" markdown="1">
+
+## Issue 02: Machines
+
+### [PDF for screen](02/situatedsystems_zine02_screen.pdf) | [PDF for print](02/situatedsystems_zine02_diy.pdf)
+
+</div>

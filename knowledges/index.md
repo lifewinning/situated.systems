@@ -11,7 +11,7 @@ metadata: zine
 
 <h2>Issue 01: Scott Kildall</h2>
 
-<h3><a href="01/situatedsystems_zine01_screen.pdf">PDF for screen</a> | <a href="01/situatedsystems_zine01_diy.pdf"PDF for print</a></h3>
+<h3><a href="01/situatedsystems_zine01_screen.pdf">PDF for screen</a> | <a href="01/situatedsystems_zine01_diy.pdf">PDF for print</a></h3>
 
 </div>
 

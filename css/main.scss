@@ -43,11 +43,7 @@ h1{
 	background-color: #FFA707;
 }
 
-.zine{
-	background-color: #56FF99;
-	margin: .5px;
-	padding: .5em;
-}
+
 .team {
 	background-color: #01903A;
 	margin: .5px;
@@ -84,4 +80,10 @@ a:selected{
 	background-color:#FFA707;
 	padding: 5px;
 	border: 2px dotted papayawhip;
+}
+.zine{
+	display: inline-block;
+	background-color: #56FF99;
+	margin: .5px;
+	padding: .5em;
 }

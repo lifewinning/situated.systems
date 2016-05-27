@@ -11,9 +11,11 @@ var width = window.innerWidth,
 var tile = d3.geo.tile()
     .size([width, height]);
 
+
 var projection = d3.geo.mercator()
      .scale((1 << (8 + origin[2])) / 2 / Math.PI)
      .translate([-width / 2, -height / 2]); // just temporary
+
 
 var tileProjection = d3.geo.mercator();
 
@@ -26,8 +28,9 @@ var zoom = d3.behavior.zoom()
     .translate(projection([origin[0], origin[1]]).map(function(x) { return -x; }))
     .on("zoom", zoomed)
 
-var map = d3.select("body").append("div")
-    .attr("class", "map")
+var map = d3.select("#map")
+    // .attr("class", "map")
+    // .attr("id", "map")
     .style("width", width + "px")
     .style("height", height + "px")
     .call(zoom).on("dblclick.zoom", null);
@@ -82,7 +85,7 @@ function zoomed() {
 
   var zoomLevel = tiles[0][2],
   mapCenter = projection.invert([width/2, height/2]);
-
+  //console.log(mapCenter)
   // adding zoom level as a class  
   d3.select(".layer").attr("class",function(){ return "layer z"+zoomLevel; });
   // url hash for the location

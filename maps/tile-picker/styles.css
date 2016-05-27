@@ -64,6 +64,8 @@ a.zoom:last-child {
   //stroke-linecap: round;
 }
 
+.added { fill: papayawhip; stroke: cyan; stroke-width: 1.5px;}
+
 
 .tile .water-layer, .tile .river, .tile .stream, .tile .canal { fill: none; stroke: #9DD9D2; stroke-width: 1.5px; }
 .tile .water, .tile .ocean { fill: #9DD9D2; }

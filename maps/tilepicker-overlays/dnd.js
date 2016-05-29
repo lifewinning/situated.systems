@@ -1,5 +1,4 @@
 selectedTiles = []
-
 d3.select('body')
   .on('dragover', handleDragOver)
   .on('drop', handleFileSelect)
@@ -35,7 +34,7 @@ function handleDragOver() {
 function draw(content, file) {
 dl = document.querySelector('.download')
 
-dl.innerHTML = "<a id = 'download' onclick='downloadSVGs()'>Download SVG!</a>"
+dl.innerHTML = "<a id = 'download' onclick='downloadSVGs()'>Download Just The GeoJSON</a><br><a onclick='collectTiles()'>Download With Base Tiles</a>"
 
 var json = JSON.parse(content)
  vector = v.selectAll("path").remove()
@@ -44,7 +43,6 @@ var json = JSON.parse(content)
     .attr("d", path)
     .attr("class", "overlay")
  zoomed()
- collectTiles();
 }
 
 function collectTiles(){
@@ -56,12 +54,16 @@ function collectTiles(){
   }
 
   tileArray.forEach(function(t){
-    tile = t.split('_')
-    tile = [parseInt(tile[1]), parseInt(tile[2]), parseInt(tile[3])]
-    renderTiles(tile)
+    newtile = t.split('_')
+    newtile = [parseInt(newtile[1]), parseInt(newtile[2]), parseInt(newtile[3])]
+    console.log(newtile)
+    renderTiles(newtile)
   })
-  console.log(selectedTiles)
+  dl = document.querySelector('.download')
+  dl.innerHTML = "<a id = 'download' onclick='downloadAll()'>Tiles Collected! Download All</a>"
+
 }
+
 
 
 function downloadSVGs(){
@@ -95,9 +97,12 @@ function downloadSVGs(){
     paths = file[0][0].outerHTML
     var blob = new Blob([paths], {type: 'image/svg+xml'})
     saveAs(blob, 'overlay.svg')
-  downloadTiles(selectedTiles)
 }
 
+function downloadAll() {
+  downloadSVGs()
+  downloadTiles()
+}
 // //praise to http://bl.ocks.org/trevorgerhardt/69286b523d00d0d8c3d6
 // function zoomToLLBounds(nw, se) {
 //       var pnw = projection(nw);

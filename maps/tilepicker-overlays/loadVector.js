@@ -1,7 +1,4 @@
-selectedTiles = []
-
 function renderTiles(d){
-  vid = "vtile_"+d[0]+"_"+d[1]+"_"+d[2]
     var width = window.innerWidth,
   height = window.innerHeight
   var layers = ['water', 'landuse', 'roads', 'buildings'];
@@ -9,12 +6,12 @@ function renderTiles(d){
  var projection = d3.geo.mercator()
    .scale((1 << (8 + d[0])) / 2 / Math.PI)
    .translate([-width / 2, -height / 2]);
-  zoom = 12;
   var path = d3.geo.path()
   .projection(projection);
 
-  var svg = d3.select('body').append('svg')
-  .attr("id", vid)
+  var svg = d3.select('.vtiles').append('svg')
+  .attr("id", "vtile_"+d[0]+"_"+d[1]+"_"+d[2])
+  .attr("class", "tile")
   .attr("height", 256+"px")
   .attr("width", 256+"px")
   ;
@@ -45,45 +42,48 @@ function renderTiles(d){
       .attr("class", function(d) { var kind = d.properties.kind || ''; if(d.properties.boundary=='yes'){kind += '_boundary';} return d.layer_name + '-layer ' + kind; })
       .attr("d", path);
   });
-  gather = document.querySelector('#'+vid)
-  gatherPaths(gather)
+
 
 }
-  function gatherPaths(s){
-    nodes = Array.from(s.childNodes)
-    saveSVG = document.createElement('svg')
-    nodes.forEach(function(n){
-      style = window.getComputedStyle(n)
-      n.setAttribute('fill', style.fill)
-      n.setAttribute('stroke',style.stroke)
-      n.setAttribute('stroke-width',style.strokeWidth)
-      //maybe don't append things if you can't see them ugh fix this later
-      if (n.fill !== 'none'){
-        newnode = n.cloneNode()
-        saveSVG.appendChild(newnode) 
-      }
-      if (n.stroke !== 'none'){
-        newnode = n.cloneNode()
-        saveSVG.appendChild(newnode) 
-      }
-      
-    }) 
-    obj = {}
-    file = d3.select(saveSVG)
-    .attr('height', 256)
-    .attr('id',s.id)
-    .attr('width',256)
-    .attr("version", 1.1)
-    .attr("xmlns", "http://www.w3.org/2000/svg")
-    //hacky way to store ID
-    obj.id = s.id
-    obj.paths = file[0][0].outerHTML
-    selectedTiles.push(obj)
-  }
+function gatherPaths(s){
+  nodes = Array.from(s.childNodes)
+  saveSVG = document.createElement('svg')
+  nodes.forEach(function(n){
+    style = window.getComputedStyle(n)
+    n.setAttribute('fill', style.fill)
+    n.setAttribute('stroke',style.stroke)
+    n.setAttribute('stroke-width',style.strokeWidth)
+    //maybe don't append things if you can't see them ugh fix this later
+    if (n.fill !== 'none'){
+      newnode = n.cloneNode()
+      saveSVG.appendChild(newnode) 
+    }
+    if (n.stroke !== 'none'){
+      newnode = n.cloneNode()
+      saveSVG.appendChild(newnode) 
+    }
+    
+  }) 
+  // obj = {}
+  file = d3.select(saveSVG)
+  .attr('height', 256)
+  .attr('id',s.id)
+  .attr('width',256)
+  .attr("version", 1.1)
+  .attr("xmlns", "http://www.w3.org/2000/svg")
+  //hacky way to store ID
+  paths = file[0][0].outerHTML
+  var blob = new Blob([paths], {type: 'image/svg+xml'})
+    saveAs(blob, s.id+'.svg');
+}
 
-function downloadTiles(array){
-  array.forEach(function(a){
-    var blob = new Blob([a.paths], {type: 'image/svg+xml'})
-    saveAs(blob, a.id+'.svg');
+function downloadTiles(){
+  vt = Array.from(document.querySelector('.vtiles').childNodes)
+  vt.forEach(function(v){
+    gatherPaths(v)
   })
+  // array.forEach(function(a){
+  //   var blob = new Blob([a.paths], {type: 'image/svg+xml'})
+  //   saveAs(blob, a.id+'.svg');
+  // })
 }

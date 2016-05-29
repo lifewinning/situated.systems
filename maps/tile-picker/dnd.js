@@ -1,4 +1,4 @@
-d3.select('body')
+  d3.select('body')
   .on('dragover', handleDragOver)
   .on('drop', handleFileSelect)
   ;
@@ -38,19 +38,14 @@ function draw(content, file) {
   [d3.max(bounds,function(d){return d[1][0];}),d3.max(bounds,function(d){return d[1][1];})]
   ];
   zoomToLLBounds(bound[0], bound[1])
-  // this does not do what it's supposed to do argh hm
-  newfile = d3.select('.layer').append('svg')
-    .attr('width', window.innerWidth)
-    .attr('height', window.innerHeight)
-    .attr('id','upload')
-  
-  upload = newfile.append('path')
+
+  vector = v.selectAll("path").remove()
     .data(json.features)
-    .attr('d', tilePath)
-    .attr('class','added');
-
-    zoomed()
-
+    .enter().append("path")
+    .attr("d", path)
+    .attr("class", "added")
+ zoomed()
+  zoomed();
 }
 
 //praise to http://bl.ocks.org/trevorgerhardt/69286b523d00d0d8c3d6

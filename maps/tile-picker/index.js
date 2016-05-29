@@ -63,7 +63,6 @@ previewTiles = []
     var zoom = d[2];
     this._xhr = d3.json("https://vector.mapzen.com/osm/all/" + zoom + "/" + d[0] + "/" + d[1] + ".json?api_key=vector-tiles-LM25tq4", function(error, data) {
       var k = Math.pow(2, d[2]) * 256; // size of the world in pixels
-     
       tilePath.projection()
           .translate([k / 2 - d[0] * 256, k / 2 - d[1] * 256]) // [0°,0°] in pixels
           .scale(k / 2 / Math.PI)

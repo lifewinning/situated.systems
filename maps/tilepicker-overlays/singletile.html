@@ -1,0 +1,61 @@
+<html>
+<body>
+<link rel="stylesheet" href="style.css" />
+<style>
+path{
+	stroke: 1px;
+	stroke-fill: black;
+}
+</style>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="d3.geo.tile.min.js"></script>
+<script>
+  var width = window.innerWidth,
+  height = window.innerHeight
+  var layers = ['water', 'landuse', 'roads', 'buildings'];
+ 
+ var projection = d3.geo.mercator()
+   .scale((1 << (8 + 12)) / 2 / Math.PI)
+   .translate([-width / 2, -height / 2]);
+  zoom = 12;
+  var path = d3.geo.path()
+  .projection(projection);
+
+  var svg = d3.select('body').append('svg')
+  .attr("class", "tile")
+  .attr("height", 256+"px")
+  .attr("width", 256+"px")
+  ;
+  this._xhr = d3.json("https://vector.mapzen.com/osm/all/12/655/1583.json?api_key=vector-tiles-LM25tq4", function(error, data) {
+  	var k = Math.pow(2, 12) * 256; // size of the world in pixels
+      path.projection()
+          .translate([k / 2 - 655 * 256, k / 2 - 1583 * 256]) // [0°,0°] in pixels
+          .scale(k / 2 / Math.PI)
+          .precision(0);
+
+    var features = [];
+    layers.forEach(function(layer){
+      if(data[layer])
+      {
+          for(var i in data[layer].features)
+          {
+              // Don't include any label placement points
+              if(data[layer].features[i].properties.label_placement == 'yes') { continue }
+              data[layer].features[i].layer_name = layer;
+              features.push(data[layer].features[i]);
+          }
+      }
+    });
+
+
+    // put all the features into SVG paths
+    svg.selectAll("path")
+      .data(features.sort(function(a, b) { return a.properties.sort_key ? a.properties.sort_key - b.properties.sort_key : 0 }))
+    .enter().append("path")
+      .attr("class", function(d) { var kind = d.properties.kind || ''; if(d.properties.boundary=='yes'){kind += '_boundary';} return d.layer_name + '-layer ' + kind; })
+      .attr("d", path);
+
+  });
+</script>
+</body>
+</html>

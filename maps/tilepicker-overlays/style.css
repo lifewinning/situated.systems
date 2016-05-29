@@ -2,10 +2,13 @@ body {
   margin: 0;
 }
 
-svg:hover{
-  border: 3px dotted red;
-  
+.overlay {
+  fill: none;
+  stroke: cyan;
+  stroke-linejoin: round;
+  stroke-width: 1.5px;
 }
+
 .map {
   position: absolute;
   overflow: hidden;
@@ -53,18 +56,13 @@ a.zoom:last-child {
   border-bottom-right-radius: 4px;
 }
 
-.tile {
-  position: absolute;
-  width: 256px;
-  height: 256px;
-}
-
 .tile path {
   fill: none;
   //stroke: #fff;
   //stroke-linejoin: round;
   //stroke-linecap: round;
 }
+
 
 
 .tile .water-layer, .tile .river, .tile .stream, .tile .canal { fill: none; stroke: #CCEBE7; stroke-width: 1.5px; }
@@ -79,12 +77,6 @@ a.zoom:last-child {
 .tile .park, .tile .nature_reserve, .tile .wood, .tile .protected_land { fill: #88D18A; stroke: #88D18A; stroke-width: 0.5px; }
 .tile .rail { stroke: #2A5DB0; stroke-width: 0.5px; }
 
-canvas{
-  border: 1px dotted red;
-  width: 125px;
-  height: 125px;
-  padding: 2px;
-}
 .download{
   position: absolute;
   top: 0px;
@@ -92,9 +84,11 @@ canvas{
   margin: 2;
   padding: 5px;
   font: 12px "Helvetica Neue", sans-serif;
-  background: #fff;
+  background: cyan;
   overflow: scroll;
   opacity: .8;
+  // height: 99vh;
+  width: 25vw;
 }
 
 .download a:hover{

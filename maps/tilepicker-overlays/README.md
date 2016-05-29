@@ -1,0 +1,3 @@
+Using [d3.geo.tile](https://github.com/d3/d3-plugins/tree/master/geo/tile) to display raster image tiles underneath some [TopoJSON](https://github.com/mbostock/topojson) vectors, and [d3.behavior.zoom](https://github.com/mbostock/d3/wiki/Zoom-Behavior) for pan & zoom. This version reprojects the geometry on interaction; compare to [updating the transform](/mbostock/5914438). See another variation of this example with points, showing the [U.S. State Capitals](/mbostock/9535021); also see the [static version](/mbostock/94b9fd26e12c586f342d).
+
+Tiles copyright [OpenStreetMap contributors](https://www.openstreetmap.org/copyright).

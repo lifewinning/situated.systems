@@ -37,25 +37,24 @@ dl = document.querySelector('.download')
 dl.innerHTML = "<a id = 'download' onclick='downloadSVGs()'>Download Just The GeoJSON</a><br><a onclick='collectTiles()'>Download With Base Tiles</a>"
 
 var json = JSON.parse(content)
- vector = v.selectAll("path").remove()
-    .data(json.features)
-    .enter().append("path")
-    .attr("d", path)
-    .attr("class", "overlay")
- zoomed()
+var newlayer = L.geoJson(json)
+newlayer.addTo(map)
+map.fitBounds(newlayer.getBounds())
+
 }
 
 function collectTiles(){
   tileArray = []
-  img = document.querySelectorAll('.tile')
+  img = document.querySelectorAll('.leaflet-tile-loaded')
+
 
   for (var i = 0; i < img.length; i++) {
-    tileArray.push(img[i].id)
+    tileArray.push(img[i].dataset.tileKey)
   }
 
   tileArray.forEach(function(t){
-    newtile = t.split('_')
-    newtile = [parseInt(newtile[1]), parseInt(newtile[2]), parseInt(newtile[3])]
+    newtile = t.split('/')
+    newtile = [parseInt(newtile[2]), parseInt(newtile[0]), parseInt(newtile[1])]
     console.log(newtile)
     renderTiles(newtile)
   })
@@ -67,16 +66,17 @@ function collectTiles(){
 
 
 function downloadSVGs(){
-  clippy = svg.append('g').attr("height", height).attr("width", width).attr("id","clippy")
 
-  s = document.querySelector('#vector')
+  // clippy = svg.append('clipPath').attr("height", height).attr("width", width).attr("id","clippy")
+
+  s = document.querySelector('g')
   nodes = Array.from(s.childNodes)
   saveSVG = document.createElement('svg')
   nodes.forEach(function(n){
     style = window.getComputedStyle(n)
     n.setAttribute('fill', style.fill)
     n.setAttribute('stroke',style.stroke)
-    n.setAttribute('stroke-width',style.strokeWidth)
+    n.setAttribute('stroke-width',style.strokeWidth) 
     //maybe don't append things if you can't see them ugh fix this later
     if (n.fill !== 'none'){
       newnode = n.cloneNode()
@@ -91,7 +91,6 @@ function downloadSVGs(){
     .attr('height', window.innerHeight)
     .attr('width',window.innerWidth)
     .attr("version", 1.1)
-    .attr("clip-path", "url(#clippy)") 
     .attr("xmlns", "http://www.w3.org/2000/svg")
     //hacky way to store ID
     paths = file[0][0].outerHTML

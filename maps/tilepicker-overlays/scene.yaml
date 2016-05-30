@@ -1,0 +1,136 @@
+# .tile .water-layer, .tile .river, .tile .stream, .tile .canal { fill: none; stroke: #CCEBE7; stroke-width: 1.5px; }
+# .tile .water, .tile .ocean { fill: #CCEBE7; }
+# .tile .military { fill: #FBD5D5; }
+# .tile .aerodrome {fill: papayawhip; }
+# .tile .riverbank { fill: #9DD9D2; }
+# .tile .ferry { stroke: #C2BBC8; stroke-width: 1.5px;}
+# .tile .water_boundary, .tile .ocean_boundary, .tile .riverbank_boundary { fill: none; stroke: #93cbc4; stroke-width: 0.5px; }
+# .tile .major_road { stroke: #DEB231; stroke-width: 1px; }
+# .tile .minor_road { stroke: #999; stroke-width: 0.5px; }
+# .tile .highway { stroke: #DEB231; stroke-width: 1.5px; }
+# .tile .buildings-layer { fill: #eee; stroke: #987284; stroke-width: 0.15px; }
+# .tile .park, .tile .nature_reserve, .tile .wood, .tile .protected_land { fill: #88D18A; stroke: #88D18A; stroke-width: 0.5px; }
+# .tile .rail { stroke: #2A5DB0; stroke-width: 0.5px; }
+
+cameras:
+    camera1:
+        type: isometric
+        axis: [0, .1]
+        vanishing_point: [0, -500]
+
+
+lights:
+    light1:
+        type: directional
+        direction: [1, 1, -.5]
+        diffuse: 0.5
+        ambient: 0.8
+
+sources:
+    osm:
+        type: TopoJSON
+        url:  https://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-ORM3Whk
+        max_zoom: 16
+
+layers:
+    earth:
+        data: { source: osm }
+        draw:
+            polygons:
+                order: function() { return feature.sort_key; }
+                color: 'white'
+
+    landuse:
+        data: { source: osm }
+        draw:
+            polygons:
+                order: function() { return feature.sort_key; }
+                color: 'white'
+        parks:
+            filter:
+                kind: [park, nature_reserve, wood, protected_land, golf_course, garden,forest,common,wetland, meadow]
+            draw:
+                polygons:
+                    color: '#88D18A'
+        military:
+            filter:
+                kind: military
+            draw:
+                polygons:
+                    color: '#FBD5D5'
+        aerial:
+            filter:
+                kind: [aerodrome, apron]
+            draw:
+                polygons:
+                    color: 'papayawhip'
+        beach:
+            filter:
+                kind: beach
+            draw:
+                polygons:
+                    color: '#E8D54C'
+        etc:
+            filter:
+                kind: [pitch, zoo,stadium,cemetery, parking]
+            draw:
+                polygons:
+                    color: '#ddd'
+
+    water:
+        data: { source: osm }
+        draw:
+            polygons:
+                order: function() { return feature.sort_key; }
+                color: '#CCEBE7'
+
+    roads:
+        data: { source: osm }
+        filter:
+            not: { kind: ["path"] }
+        draw:
+            lines:
+                order: function() { return feature.sort_key; }
+                color: gray
+                width: 8
+                cap: round
+        rail:
+            filter:
+                kind: rail
+                
+        ferry:
+            filter:
+                kind: ferry
+            draw:
+                lines:
+                    color: '#C2BBC8'
+                    width: 11
+        highway:
+            filter:
+                kind: highway
+            draw:
+                lines:
+                    order: function() { return feature.sort_key; }
+                    color: '#DEB231'
+                    width: 12
+                    outline:
+                        color: '#DEB231'
+                        width: 1.5
+        minor_road:
+            filter:
+                kind: minor_road
+            draw:
+                lines:
+                    order: function() { return feature.sort_key; }
+                    color: '#999'
+                    width: 5
+
+    buildings:
+        data: { source: osm }
+        draw:
+            polygons:
+                order: function() { return feature.sort_key; }
+                color: '#eee'
+            lines:
+                color: '#987284'
+                width: 1.5

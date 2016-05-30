@@ -1,5 +1,13 @@
 body {
-  margin: 0;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 .overlay {
@@ -9,15 +17,7 @@ body {
   stroke-width: 1.5px;
 }
 
-.map {
-  position: absolute;
-  overflow: hidden;
-  background-color: white;
-}
-
 .vtiles{
-  position: fixed;
-  bottom: -33333;
 }
 
 .layer {
@@ -62,7 +62,7 @@ a.zoom:last-child {
 
 .tile path {
   fill: none;
-  stroke: #fff;
+  stroke: none;
   stroke-linejoin: round;
   stroke-linecap: round;
 }
@@ -93,6 +93,7 @@ a.zoom:last-child {
   opacity: .8;
   // height: 99vh;
   width: 25vw;
+  z-index: 999;
 }
 
 .download a:hover{

@@ -69,6 +69,8 @@ a.zoom:last-child {
 
 .tile .water-layer, .tile .river, .tile .stream, .tile .canal { fill: none; stroke: #CCEBE7; stroke-width: 1.5px; }
 .tile .water, .tile .ocean { fill: #CCEBE7; }
+.tile .military { fill: #FBD5D5; }
+.tile .aerodrome {fill: papayawhip; }
 .tile .riverbank { fill: #9DD9D2; }
 .tile .ferry { stroke: #C2BBC8; stroke-width: 1.5px;}
 .tile .water_boundary, .tile .ocean_boundary, .tile .riverbank_boundary { fill: none; stroke: #93cbc4; stroke-width: 0.5px; }

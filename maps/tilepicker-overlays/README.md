@@ -1,1 +1,3 @@
-A terrible Frankenstein of D3 demos and some other sketch ideas put together to do one relatively dumb thing of making it possible to both export geoJSON as SVG and to export individual vector tiles as SVG
+# Leaflet Tile Export
+
+The thing I probably should have done first for making a map data exporting thing but didn't because I am Bad and I should feel Bad. 

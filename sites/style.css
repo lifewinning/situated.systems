@@ -55,15 +55,6 @@ body {
 	border: 3px solid rebeccapurple;
 }
 
-.sites > div {
-	background-color: #ccc;
-	border: 3px solid papayawhip;
-	padding: 5px;
-	text-transform: uppercase;
-		font-family: "neuzeit-grotesk-condensed", sans-serif;
-
-}
-
 #sites > div :hover {
 	background-color: papayawhip;
 }

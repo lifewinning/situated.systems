@@ -10,6 +10,8 @@ layer.addTo(map);
 
 sitsys = L.layerGroup().addTo(map);
 
+map.doubleClickZoom.disable();
+
 map.setView([37.7185,-122.4350], 9);
 
 // var hash = new L.Hash(map);

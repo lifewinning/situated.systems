@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="main.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
      <!-- typekittens -->
-    <script src="https://use.typekit.net/ymy3pnu.js"></script>
+    <script src="https://use.typekit.net/toh6xtq.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="mustache.min.js"></script>
+    <title>Situated Sites</title>
   </head>
 
   <body>
@@ -26,9 +26,8 @@
 <!--         <nav>
             <ul>Former and Current Military Property</ul><ul>Superfund Sites</ul><ul>Under Redevelopment</ul>
         </nav> -->
-        <h1>Situated Sites</h1>
-        <h3 id ="allSites">All Sites</h3>
-        <div id = "sites"></div>
+        <h3><span id ="allSites">All Sites</span> <span id ="mil">Military-Related</span> <span id="superfund">Federal Superfund Sites</span></h3>
+        <div id = "sites" class="sites"></div>
         <div id = "desc"></div>
     </div>
     <!-- leaflet -->
@@ -46,8 +45,17 @@
 
     <script id="template-img" type="text/template">
     <h1>{{ properties.placename }}</h1>
-    IMAGE HERE
+    <img src="img/{{ img }}" />
     <p>{{ properties.text }}</p>
+    </script>
+    <script id="template-mil-img" type="text/template">
+    <h1>{{ properties.placename }}</h1>
+    <img src="img/{{ img }}" />
+    <p>{{ properties.text }}</p><p>{{ properties.military_text }}</p>
+    </script>
+     <script id="template-mil" type="text/template">
+    <h1>{{ properties.placename }}</h1>
+    <p>{{ properties.text }}</p><p>{{ properties.military_text }}</p>
     </script>
 
   </body>

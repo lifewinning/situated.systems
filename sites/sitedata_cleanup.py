@@ -3,7 +3,7 @@ import json, csv
 
 sites = open('sites.geojson').read()
 
-annotations = open('annotations.json').read()
+annotations = open('annotations-final.json').read()
 
 anno = json.loads(annotations)
 
@@ -15,6 +15,7 @@ joined['type'] = 'FeatureCollection'
 
 joined['features'] = []
 
+featurelist = []
 
 for s in data['features']:
 	# deduplicate trick
@@ -24,15 +25,14 @@ for s in data['features']:
 		for a in anno:
 			if a['placename'] == s['properties']['placename']:
 				s['properties']['text'] = a['text']
-				opt = ['photo','superfund', 'military','redeveloper']
-				for o in opt:
-					if a[o] == 'y':
-						s['properties'][o] = a[o]
-					else:
-						pass
+				s['properties']['military_text'] = a['military_text']
+				s['properties']['photo'] = a['photo']
+				s['properties']['superfund'] = a['superfund']
+				s['properties']['military'] = a['military']
+				
 				joined['features'].append(s)
 			else:
 				pass
 
-with open('joined.geojson', 'w') as outfile:
+with open('joined-final.geojson', 'w') as outfile:
 	json.dump(joined, outfile)

@@ -20,6 +20,10 @@ h1, h2, h3 {
   text-align: center; 
 }
 
+h3{
+  line-height: 2;
+}
+
 .col-md-12 {
   padding-bottom: 15px; }
 

@@ -30,6 +30,7 @@ h1{
 .col-md-12{
 	//min-height: 100vh;
 	padding-bottom: 15px;
+	border-bottom: 3px #00D455 dashed;
 }
 
 #lead{
@@ -43,7 +44,11 @@ h1{
 	background-color: #FFA707;
 }
 
-
+#outputs a{
+	background-color: #00D455;
+	padding: 3px;
+	color:white;
+}
 .team {
 	background-color: #01903A;
 	margin: .5px;

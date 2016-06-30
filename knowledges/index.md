@@ -23,3 +23,20 @@ metadata: zine
 <h3><a href="02/situatedsystems_zine02_screen.pdf">PDF for screen</a> | <a href="02/situatedsystems_zine02_diy.pdf">PDF for print</a></h3>
 
 </div>
+<div class="zine row" markdown="1" style="display:inline-block;">
+
+<h2>Issue 03: Prelinger Library</h2>
+
+
+<h3><a href="03/situatedsystems_zine03_screen.pdf">PDF for screen</a> | <a href="02/situatedsystems_zine03_diy.pdf">PDF for print</a></h3>
+
+</div>
+
+<div class="zine row" markdown="1" style="display:inline-block;">
+
+<h2>Issue 04: Gray Area</h2>
+
+
+<h3><a href="04/situatedsystems_zine04_screen.pdf">PDF for screen</a> | <a href="02/situatedsystems_zine04_diy.pdf">PDF for print</a></h3>
+
+</div>

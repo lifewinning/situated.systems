@@ -1,0 +1,32 @@
+---
+layout: default
+---
+ <div class="col-md-12">
+    <h1>{{ page.title }}</h1>
+    	<div class="col-md-10 col-md-offset-1">
+    <img src="1.jpg" class="img-responsive" />
+      {{ content }}
+    {% if page.files %}
+    <h3><a href="{{page.files}}">Download Source Files</a></h3>
+    {% endif %}
+    {% if {{page.imgs > 1 %}
+    <div class="row">
+    {% assign count = {{page.imgs | minus:1 }} %}
+    {% for i in (2..{{page.imgs}}) %}
+    <div class="col-md-{{ count }}">
+    	<img src="{{ i }}.jpg" class="img-responsive">
+    </div>
+	{% endfor %}
+      </div>
+  {% endif %}
+      {% if {{page.imgs == 2 %}
+    <div class="row">
+    {% for i in (2..{{page.imgs}}) %}
+    <div class="col-md-12">
+      <img src="{{ i }}.jpg" class="img-responsive">
+    </div>
+  {% endfor %}
+      </div>
+  {% endif %}
+ </div>
+</div>

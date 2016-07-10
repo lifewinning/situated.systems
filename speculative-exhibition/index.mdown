@@ -1,0 +1,20 @@
+---
+layout: documentation
+title:  "Speculative Exhibition"
+permalink: /speculative-exhibition/
+imgs: 1
+---
+
+These map tiles are a physical representation of entries from an online annotated map, which documents sites which we identified as relevant to our research. These four map tiles tell four different stories of how the military has interacted with technology culture in the Bay Area. By using individual items, the issues of scaling are addressed, identifying the local environments of each site and locating them in relationship to each other and to the San Francisco peninsula. The map images were constructed using a custom software tool created as part of this project.
+ 
+### Materials
+
+Tiles: 1/8” 1 clear acrylic sheet
+Envelopes: printable canvas sheeting, linen book repair tape
+ 
+### Production
+
+Maps created with a [custom-built tile selection tool](maps/tile-picker) and Adobe Illustrator.
+Envelope design created with Adobe Illustrator.
+Envelopes printed and cut with a Roland VersaCAMM wide-format vinyl printer/cutter (RSP-540i) and assembled by hand.
+

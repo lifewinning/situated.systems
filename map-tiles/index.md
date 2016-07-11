@@ -16,7 +16,9 @@ Envelopes: printable canvas sheeting, linen book repair tape
 
 <h3>Production</h3>
 <p>
-Maps created with a [custom-built tile selection tool](/maps/tile-picker) and Adobe Illustrator.
+Maps created with a <a href="/maps/tile-picker">custom-built tile selection tool</a> and Adobe Illustrator.
+
 Envelope design created with Adobe Illustrator.
+
 Envelopes printed and cut with a Roland VersaCAMM wide-format vinyl printer/cutter (RSP-540i) and assembled by hand.
 </p>

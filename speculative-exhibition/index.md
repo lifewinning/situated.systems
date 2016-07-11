@@ -21,7 +21,7 @@ imgs: -1
 
 <h3>Components</h3>
 
-<p><img src="images/SituatedSystems_plan_inprocessMarkup.jpg" alt="floor plans" class="img-responsive"/></p>
+<p><img src="Images/SituatedSystems_plan_inprocessMarkup.jpg" alt="floor plans" class="img-responsive"/></p>
 
 <p><em>We modified existing floor plans, annotated them with photographs, and iteratively notated them throughout conversations with Pier 9 staff.</em></p>
 
@@ -33,24 +33,24 @@ imgs: -1
 
 <p><em>map tiles of key historical sites; photograph by Blue Bergen.</em></p>
 
-<img src="images/Situated-Systems_16-0608_03.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_03.JPG" alt="tiles" class="img-responsive"/>
 <div class="row">
 <div class="col-md-6">
-<img src="images/Situated-Systems_16-0608_04.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_04.JPG" alt="tiles" class="img-responsive"/>
 </div>
 <div class="col-md-6">
-<img src="images/Situated-Systems_16-0608_05.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_05.JPG" alt="tiles" class="img-responsive"/>
 </div>
 <div class="col-md-6">
-<img src="images/Situated-Systems_16-0608_06.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_06.JPG" alt="tiles" class="img-responsive"/>
 </div>
 <div class="col-md-6">
-<img src="images/Situated-Systems_16-0608_07.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_07.JPG" alt="tiles" class="img-responsive"/>
 </div>
 </div>
 <p><em>a site visit box about Alameda Naval Air Station augments a view that includes Alameda in the distance; photograph by Blue Bergen.</em></p>
 
-<p><img src="images/Situated-Systems_16-0608_08.JPG" alt="tiles" class="img-responsive"/></p>
+<p><img src="Images/Situated-Systems_16-0608_08.JPG" alt="tiles" class="img-responsive"/></p>
 
 <p>Additional interventions could include translucent overlays on windows in the Pier 9 Arcade, metal and/or wood shop, kitchen, and Studio 9 spaces. These overlays would relate to footprints indicated on the ground beneath them, specifically framing a visitor’s view with additional information about locations that could be either seen or inferred from the specific view. In the process of developing the exhibit, we investigated means by which to create these overlays as drawings to include solar-powered electronic highlights, using conductive ink and/or thread.</p>
 
@@ -62,11 +62,11 @@ imgs: -1
 
 <p>We chose one wall for our primary use. Made of a light wood, the pages of the experimental zine could nearly disappear into the surface if you were to just pass by. It also faced both the artists-in-residence area, in general, and a seating area, specifically. If noticed, the pages could create a visual focus for the space. As an alternative to a single installation, the pages could also be scattered throughout the wood walls of the artists-in-residence space. Our choice to play off of the similarity of materials was deliberate; the stories of the decommissioned military sites created context for Pier 9’s own work. We placed the Treasure Island “historic plaque” page over the desk of the Bay area-native artist who’d originally suggested that we look into Treasure Island as a research site.</p>
 
-<p><img src="images/Situated-Systems_16-0608_39.JPG" alt="tiles" class="img-responsive"/></p>
+<p><img src="Images/Situated-Systems_16-0608_39.JPG" alt="tiles" class="img-responsive"/></p>
 
 <p><em>pages of the experimental zine placed on the wall across from the artists-in-residence area; photograph by Blue Bergen.</em></p>
 
-<p><img src="images/Situated-Systems_16-0608_45.JPG" alt="tiles" class="img-responsive"/></p>
+<p><img src="Images/Situated-Systems_16-0608_45.JPG" alt="tiles" class="img-responsive"/></p>
 
 <p><em>pages of the experimental zine scattered throughout the artists-in-residence area; photograph by Blue Bergen.</em></p>
 
@@ -76,17 +76,17 @@ imgs: -1
 
 <p>Our icons and Mare Island machines could easily be integrated within existing shelves of objects, placed within the print lab, made at the Pier.</p>
 
-<img src="images/Situated-Systems_16-0608_17.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_17.JPG" alt="tiles" class="img-responsive"/>
 
 <div class="row">
 <div class="col-md-6">
-	<img src="images/Situated-Systems_16-0608_21.JPG" alt="tiles" class="img-responsive"/>
+	<img src="Images/Situated-Systems_16-0608_21.JPG" alt="tiles" class="img-responsive"/>
 </div>
 <div class="col-md-6">
-	<img src="images/Situated-Systems_16-0608_26.JPG" alt="tiles" class="img-responsive"/>
+	<img src="Images/Situated-Systems_16-0608_26.JPG" alt="tiles" class="img-responsive"/>
 </div>
 <div class="col-md-6">
-	<img src="images/Situated-Systems_16-0608_28.JPG" alt="tiles" class="img-responsive"/>
+	<img src="Images/Situated-Systems_16-0608_28.JPG" alt="tiles" class="img-responsive"/>
 </div>
 </div>
 
@@ -94,50 +94,50 @@ imgs: -1
 
 <p>Our icon of material scientist Ursula Franklin fit naturally within the tool shelves of the wood shop, serving as an intelligent, theoretical reminder within the very mechanical place.</p>
 
-<p><img src="images/Situated-Systems_16-0608_34.JPG" class="img-responsive"> 
+<p><img src="Images/Situated-Systems_16-0608_34.JPG" class="img-responsive"> 
 <em>Ursula Franklin within the wood shop; photograph by Blue Bergen.</em></p>
 
 <p>Similarly, Donna Haraway was a natural fit to oversee the electronics lab. We made it into a place now all watched over by the Donna Haraway of Loving Grace.</p>
 
-<p><img src="images/Situated-Systems_16-0608_37.JPG" class="img-responsive">
+<p><img src="Images/Situated-Systems_16-0608_37.JPG" class="img-responsive">
 <em>Donna Haraway within the electronics lab; photograph by Blue Bergen.</em></p>
 
 <p>We integrated copies from our zine series, named after Haraway’s essay “Situated Knowledges,” into the Pier 9 library and general news-reading spaces. By placing our materials within seemingly similar ones, we tweaked the landscape only slightly while still providing new perspectives.</p>
 
-<p><img src="images/Situated-Systems_16-0608_41.JPG" alt="tiles" class="img-responsive"/>
-<img src="images/Situated-Systems_16-0608_46.JPG" alt="tiles" class="img-responsive"/></p>
+<p><img src="Images/Situated-Systems_16-0608_41.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_46.JPG" alt="tiles" class="img-responsive"/></p>
 
 <p>Though many of the interventions that we’ve mentioned up to this point could be realistic, one crucial one could only happen through the speculative process. Tiny, 3D-printed Mare Island machines (the result of Georgina’s scanning of historic machines) served as evocative juxtapositions to the larger machines of the Pier 9 shops.</p>
 
 <div class="row">
 <div class="col-md-4">
-<img src="images/Situated-Systems_16-0608_29.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_29.JPG" alt="tiles" class="img-responsive"/>
 </div>
 <div class="col-md-4">
-<img src="images/Situated-Systems_16-0608_35.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_35.JPG" alt="tiles" class="img-responsive"/>
 </div>
 <div class="col-md-4">
-<img src="images/Situated-Systems_16-0608_31.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_31.JPG" alt="tiles" class="img-responsive"/>
 </div>
 <div class="col-md-4">
-<img src="images/Situated-Systems_16-0608_32.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_32.JPG" alt="tiles" class="img-responsive"/>
 </div>
 <div class="col-md-4">
-<img src="images/Situated-Systems_16-0608_36.JPG" alt="tiles" class="img-responsive"/></div>
+<img src="Images/Situated-Systems_16-0608_36.JPG" alt="tiles" class="img-responsive"/></div>
 <div class="col-md-4">
-<img src="images/Situated-Systems_16-0608_30.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_30.JPG" alt="tiles" class="img-responsive"/>
 </div>
 </div>
 
 <p>And we utilized our project stickers, modified from historic stickers found on the Mare Island machines, to identify those machines that served as our most crucial “Mission Support.” These machines included the 3D printer used to print the Mare Island machines, our extensive use of hand tools, and the Pier 9 staff themselves.</p>
 
-<img src="images/Situated-Systems_16-0608_11.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_11.JPG" alt="tiles" class="img-responsive"/>
 <div class="row">
 <div class="col-md-6">
-<img src="images/Situated-Systems_16-0608_15.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_15.JPG" alt="tiles" class="img-responsive"/>
 </div>
 <div class="col-md-6">
-<img src="images/Situated-Systems_16-0608_14.JPG" alt="tiles" class="img-responsive"/>
+<img src="Images/Situated-Systems_16-0608_14.JPG" alt="tiles" class="img-responsive"/>
 </div>
 </div>
 

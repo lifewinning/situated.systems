@@ -5,7 +5,7 @@ layout: default
     <h1>{{ page.title }}</h1>
     	<div class="col-md-10 col-md-offset-1">
     {% if {{page.imgs}} %}
-    <img src="1.jpg" class="img-responsive" />
+    <img src="1.JPG" class="img-responsive" />
     {% endif %} 
     {{ content }}
     {% if page.files %}
@@ -17,11 +17,11 @@ layout: default
     {% assign count = {{page.imgs | minus:1 }} %}
     {% for i in (2..{{page.imgs}}) %}
     <div class="col-md-{{ count }}">
-    	<img src="{{ i }}.jpg" class="img-responsive">
+    	<img src="{{ i }}.JPG" class="img-responsive">
     </div>
 	   {% endfor %}
      {% else %}
-      <img src="2.jpg" class="img-responsive">
+      <img src="2.JPG" class="img-responsive">
     {% endif %}
    </div>
 </div>

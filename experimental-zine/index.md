@@ -19,11 +19,14 @@ Box: ⅛” 4130 alloy steel, ⅛” x 1” x 1” slices of natural rubber for 
  
 ### Production
 
-Zine:  Files created in Adobe Illustrator. Cut and etched with an Epilog Legend 36EXT laser cutter.
+Zine: 
+
+Files created in Adobe Illustrator.
+Cut and etched with an Epilog Legend 36EXT laser cutter.
 
 Box: 
+
 Files created in Adobe Illustrator.
 Toolpaths created in OMAX Layout and OMAX Make.
-Steel cut on OMAX 60120 Waterjet.
-Box TiG welded
+Steel cut on OMAX 60120 Waterjet and TIG welded.
 Rubber bumpers positioned and mounted by hand.

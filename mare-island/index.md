@@ -3,7 +3,7 @@ layout: documentation
 title:  Mare Island Extension Kit
 permalink: /mare-island/
 files: "https://www.dropbox.com/sh/0egewzapl06o9qq/AABkwRRr2uvB4UpmDCMnBvW_a?dl=0"
-imgs: 7
+imgs: 6
 ---
 
 <p>Following its closure and decommissioning in 1996, the contents of Mare Island Naval Shipyard were auctioned off to the public in 2002. The heavy industrial machine tools that had previously been utilized to build and repair warships and submarines found their way into new hands and new uses across the Bay Area. During this project, we tracked down a number of these machines and their new operators. Photogrammetry techniques and digital fabrication processes were used to capture them, allowing these large and complex machines to be seen, handled and reproduced beyond the specific workshop environments where they are used.</p>
@@ -18,7 +18,6 @@ Stratasys resin: Vero White and Tango Black combination DM_8525_Grey50. Matte. â
 
 <h3>Production</h3>
 
-Images for photogrammetry taken with an iPhone 5 and [p9 camera].
-Mesh created with Memento / ReCap and edited with Meshmixer.Meshmixer.
-Printed on a StratasysObjet Connex 500 3D printer.
+Images for photogrammetry taken with an iPhone 5 and Panasonic Lumix DMC-SZ10E. Mesh created with Autodesk Memento / ReCap and edited with Autodesk Meshmixer. Printed on a Stratasys Objet Connex 500 3D printer.
+
  

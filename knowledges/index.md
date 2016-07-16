@@ -6,7 +6,7 @@ bgID: zine
 metadata: zine
 ---
 <img src="1.JPG" class="img-responsive">
-<h3><em>Situated Knowledges</em> is a zine series collecting interviews with people conducted as part of Situated Systems. In her essay "<a href="https://www.dropbox.com/s/nqshmza7kd76xdx/Haraway1988.pdf?dl=0">Situated Knowledges: The Science Question in Feminism and the Privilege of PartialPerspective</a>" (from which these zines took their name), Donna Haraway encourages researchers to recognize that their perspective reflects their specific experiences and identities. This suggests that collaboration and community are a way to situate one’s own knowledge, which is inevitably limited, in a larger context. To this end, we interviewed other members of the community and documented these interviews.</h3>
+<h3><em>Situated Knowledges</em> is a zine series. In her essay “Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective” (from which these zines took their name), Donna Haraway encourages researchers to recognize that their perspective reflects their specific experiences and identities. This suggests that collaboration and community are a way to situate one’s own knowledge, which is inevitably limited, in a larger context. To this end, we interviewed other members of the community and documented these interviews in a series of zines.</h3>
 
 <div class="zine row" markdown="1" style="display:inline-block;">
 

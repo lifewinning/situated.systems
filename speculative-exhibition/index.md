@@ -28,7 +28,7 @@ imgs: -1
 <p>Windows were activated to modify the literal views from the Pier. These modifications connected the Pier to places nearby (such as the Alameda Naval Air Station) or further afield (such as sites of importance to the history of Silicon Valley as a technological center).</p>
 
 
-<p><em>map tiles of key historical sites; photograph by Blue Bergen.</em></p>
+<p><em>Map tiles of key historical sites; photograph by Blue Bergen.</em></p>
 
 <img src="Images/Situated-Systems_16-0608_03.JPG" alt="tiles" class="img-responsive"/>
 <div class="row">
@@ -45,7 +45,7 @@ imgs: -1
 <img src="Images/Situated-Systems_16-0608_07.JPG" alt="tiles" class="img-responsive"/>
 </div>
 </div>
-<p><em>a site visit box about Alameda Naval Air Station augments a view that includes Alameda in the distance; photograph by Blue Bergen.</em></p>
+<p><em>A site visit box about Alameda Naval Air Station augments a view that includes Alameda in the distance; photograph by Blue Bergen.</em></p>
 
 <p><img src="Images/Situated-Systems_16-0608_08.JPG" alt="tiles" class="img-responsive"/></p>
 
@@ -102,7 +102,7 @@ imgs: -1
 <p>We placed copies of <em>Situated Systems</em>, our zine series, in the Pier 9 library and in spaces where newspapers and magazines were read and shared, adding perspectives from our research to the existing resources.</p>
 
 <p><img src="Images/Situated-Systems_16-0608_41.JPG" alt="tiles" class="img-responsive"/>
-<img src="Images/Situated-Systems_16-0608_46.JPG" alt="tiles" class="img-responsive"/></p>
+<img src="Images/Situated-Systems_16-0608_47_1024.jpg" alt="tiles" class="img-responsive"/></p>
 
 <p>While many of these interventions are practical, one crucial one could only happen through the speculative process: tiny, 3D-printed machines, created by scanning machining equipment that was once installed at the Mare Island Naval Base, serve as evocative juxtapositions to the large, functional machines of the Pier 9 shops.</p>
 

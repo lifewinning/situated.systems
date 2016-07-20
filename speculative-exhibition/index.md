@@ -60,11 +60,11 @@ imgs: -1
 
 <p><img src="Images/Situated-Systems_16-0608_39.JPG" alt="tiles" class="img-responsive"/></p>
 
-<p><em>pages of the experimental zine placed on the wall across from the artists-in-residence area; photograph by Blue Bergen.</em></p>
+<p><em>Pages of the experimental zine placed on the wall across from the artists-in-residence area; photograph by Blue Bergen.</em></p>
 
 <p><img src="Images/Situated-Systems_16-0608_45.JPG" alt="tiles" class="img-responsive"/></p>
 
-<p><em>pages of the experimental zine scattered throughout the artists-in-residence area; photograph by Blue Bergen.</em></p>
+<p><em>Pages of the experimental zine scattered throughout the artists-in-residence area; photograph by Blue Bergen.</em></p>
 
 <h4>Surfaces</h4>
 
@@ -87,7 +87,7 @@ imgs: -1
 </div>
 </div>
 
-<p><em>items integrated into object shelves in the Pier 9 print shop; photograph by Blue Bergen.</em></p>
+<p><em>Items integrated into object shelves in the Pier 9 print shop; photograph by Blue Bergen.</em></p>
 
 <p>Our icon of material scientist Ursula Franklin, whose work deals with the cultural systems that arise from technologies, including modes of fabrication, fits naturally within the tool shelves of the wood shop, serving as reminder of larger societal impacts within the practically-focused space.</p>
 

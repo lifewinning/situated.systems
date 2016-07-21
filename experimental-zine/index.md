@@ -14,19 +14,17 @@ Zines have roots in DIY fan communities; their small size allows creators to foc
  
 ### Materials
 
-Zine: 3mm plywood
+Zine: 3mm plywood <br/>
 Box: ⅛” 4130 alloy steel, ⅛” x 1” x 1” slices of natural rubber for corner bumpers, 3M high-performance double-sided tape (9088)
  
 ### Production
 
-Zine: 
-
-Files created in Adobe Illustrator.
+Zine:<br/>
+Files created in Adobe Illustrator. <br/>
 Cut and etched with an Epilog Legend 36EXT laser cutter.
 
-Box: 
-
-Files created in Adobe Illustrator.
-Toolpaths created in OMAX Layout and OMAX Make.
-Steel cut on OMAX 60120 Waterjet and TIG welded.
+Box: <br/>
+Files created in Adobe Illustrator.<br/>
+Toolpaths created in OMAX Layout and OMAX Make.<br/>
+Steel cut on OMAX 60120 Waterjet and TIG welded.<br/>
 Rubber bumpers positioned and mounted by hand.

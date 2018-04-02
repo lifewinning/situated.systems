@@ -29,7 +29,7 @@ lights:
 sources:
     osm:
         type: TopoJSON
-        url:  https://tile.nextzen.org/tilezen/vector/v1/512/all/{z}/{x}/{y}.mvt?api_key=3CaD4pOzTwafHlFoEVKXfQ
+        url:  https://tile.nextzen.org/tilezen/vector/v1/all/{z}/{x}/{y}.mvt?api_key=your-nextzen-api-key=3CaD4pOzTwafHlFoEVKXfQ
         #max_zoom: 16
     # sitsys:
     #     type: GeoJSON

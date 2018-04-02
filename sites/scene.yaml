@@ -28,7 +28,7 @@ lights:
 
 sources:
     osm:
-        type: TopoJSON
+        type: MVT
         url:  https://tile.nextzen.org/tilezen/vector/v1/all/{z}/{x}/{y}.mvt?api_key=3CaD4pOzTwafHlFoEVKXfQ
         #max_zoom: 16
     # sitsys:

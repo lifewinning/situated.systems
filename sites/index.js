@@ -1,12 +1,15 @@
 
 var map = L.map('map', {zoomControl: false});
 
-var layer = Tangram.leafletLayer({
-    scene: 'scene.yaml',
-    attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a> | &copy; OSM contributors | <a href="https://mapzen.com/" target="_blank">Mapzen</a>'
-});
+// var layer = Tangram.leafletLayer({
+//     scene: 'scene.yaml',
+//     attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a> | &copy; OSM contributors | <a href="https://mapzen.com/" target="_blank">Mapzen</a>'
+// });
 
-layer.addTo(map);
+// layer.addTo(map);
+basemap = L.tileLayer('https://api.mapbox.com/styles/v1/lifewinning/cjgo3pxd2000w2rqnta1mx2df/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGlmZXdpbm5pbmciLCJhIjoiYWZyWnFjMCJ9.ksAPTz72HyEjF2AOMbRNvg')
+
+basemap.addTo(map);
 
 sitsys = L.layerGroup().addTo(map);
 
